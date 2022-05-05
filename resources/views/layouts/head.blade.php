@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-            
+
         <!-- Basic -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>@yield('title')</title>	
+        <title>@yield('title')</title>
 
-        <meta name="keywords" content="HTML5 Template" />
-        <meta name="description" content="Porto - Responsive HTML5 Template">
-        <meta name="author" content="okler.net">
+        <meta name="description" content="Una empresa orgullosamente mexicana. Somos líderes en la Industria Cosmética. Crea tu propia marca de cosméticos. Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles. Fabricante de cosméticos">
+        <meta name="keywords" content="IMAQ Industrial Maquiladora, Marca de cosméticos, Tu propia marca de cosméticos, Crea y Personaliza tu marca de cosméticos, Industria cosmética en México, Marca de maquillaje, labiales, skincare, rubor, Fabricante de cosmeticos" />
+        <meta name="author" content="industrialmaquiladora.com">
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:type" content="websites" />
+        <meta property="og:title" content="IMAQ | Industrial Maquiladora - Fabricante de Cosméticos" />
+        <meta property="og:url" content="https://industrialmaquiladora.com/" />
+		<meta property="og:site_name" content="IMAQ | Inudstrial Maquiladora, Industria Cosmética, Maquiladora de cosméticos, Maquiladora de maquillajes" />
+		<link rel="canonical" href="https://industrialmaquiladora.com/" />
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/imaqfavicon.png" type="image/x-icon" />
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
         <!-- Mobile Metas -->

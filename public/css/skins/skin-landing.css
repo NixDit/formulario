@@ -26,7 +26,7 @@ a:active {
 
 html .text-color-primary,
 html .text-primary {
-	color: #0088cc !important;
+	color: #224a9a !important;
 }
 
 html .text-color-hover-primary:hover,
@@ -533,7 +533,7 @@ html .bg-color-hover-before-quaternary:before:hover {
 
 html .bg-color-dark,
 html .bg-dark {
-	background-color: #212529 !important;
+	background-color: #224a9a !important;
 }
 
 html .bg-color-hover-dark:hover,
@@ -1424,8 +1424,8 @@ html .btn-check:focus + .btn-quaternary {
 }
 
 html .btn-dark {
-	background-color: #212529;
-	border-color: #212529 #212529 #0a0c0d;
+	background-color: #1e75cc;
+	border-color: #346ea7 #346ea7 #137db2;
 	color: #FFF;
 }
 
@@ -2447,7 +2447,7 @@ html section.section-quaternary-scale-2 .sort-source.sort-source-style-2 > li.ac
 }
 
 html section.section-dark {
-	background-color: #212529 !important;
+	background-color: #224a9a !important;
 	border-color: #16181b !important;
 }
 
@@ -2599,7 +2599,7 @@ html .bg-color-dark-scale-border-top-1 {
 }
 
 html .bg-color-dark-scale-2 {
-	background-color: #1c2023 !important;
+	background-color: #224a9a !important;
 }
 
 html .section.bg-color-dark-scale-2,

@@ -5,7 +5,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="/"><img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="img/landing/logo-imaq_2.png"></a>
+                            <a href="/"><img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="img/landing/logoinicioimaq3.png"></a>
                         </div>
                     </div>
                 </div>
@@ -16,8 +16,13 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="/">
+                                            <a class="dropdown-item" href="/">
                                                 Inicio
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item" href="/">
+                                                Desarrollo
                                             </a>
                                         </li>
                                         <li class="dropdown">
@@ -25,7 +30,32 @@
                                                 Diseños
                                             </a>
                                         </li>
+                                        {{-- <li class="dropdown">
+                                            <a class="dropdown-item" href="/">
+                                                Empaque
+                                            </a>
+                                        </li> --}}
                                         <li class="dropdown">
+                                            <a class="dropdown-item" href="/">
+                                                Envase
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item" href="/">
+                                                Impresión
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item" href="/">
+                                                Etiquetado
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item" href="/">
+                                                Acabado
+                                            </a>
+                                        </li>
+                                        {{-- <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 Features
                                             </a>
@@ -48,8 +78,8 @@
                                                     <a class="dropdown-item" href="feature-gdpr.html">GDPR</a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li class="dropdown">
+                                        </li> --}}
+                                        {{-- <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 Pages
                                             </a>
@@ -63,7 +93,7 @@
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         {{-- <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 Portfolio
@@ -143,7 +173,7 @@
                                                 </li>
                                             </ul>
                                         </li> --}}
-                                        <li class="dropdown">
+                                        {{-- <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 Blog
                                             </a>
@@ -223,12 +253,12 @@
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li class="dropdown">
+                                        </li> --}}
+                                        {{-- <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="https://maproderm.com/">
                                                 Tienda
                                             </a>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </nav>
                             </div>

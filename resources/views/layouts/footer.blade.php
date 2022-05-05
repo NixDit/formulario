@@ -10,10 +10,13 @@
             <li class="social-icons-twitter"><a href="http://www.twitter.com/maproderm" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
             <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
+        {{-- <ul>
+            <p class="text-color-white mb-0 text-2">contacto@industrialmaquiladora.com <br>55 88 48 46 39</p>
+        </ul> --}}
     </div>
     <div class="copyright bg-dark py-4">
         <div class="container text-center py-2">
-            <p class="mb-0 text-2">Copyright 2021 - IMAQ Industrial Maquiladora - All Rights Reserved</p>
+            <p class="text-color-white mb-0 text-2">Copyright 2022 - IMAQ Industrial Maquiladora OSC S.A de C.V. - Todos los derechos reservados</p>
         </div>
     </div>
 </footer>

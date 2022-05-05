@@ -1,5 +1,5 @@
 @extends('index')
-@section('title','IMAQ | Industrial Maquiladora')
+@section('title','IMAQ | Industrial Maquiladora OSC')
 @section('content')
 <div role="main" class="main">
     <section class="section section-concept section-no-border section-dark section-angled section-angled-reverse pt-5 m-0" id="section-concept" style="background-image: url(img/landing/header_bg_4.jpg); background-size: cover; background-position: center; animation-duration: 750ms; animation-delay: 300ms; animation-fill-mode: forwards;">
@@ -9,7 +9,7 @@
                 <div class="col-lg-5 mb-5">
                     {{-- <h5 class="text-primary font-weight-bold mb-1">PORTO HTML5 TEMPLATE</h5> --}}
                     <h1 class="font-weight-bold text-12 line-height-2 mb-3">IMAQ Industrial Maquiladora<span><span class="d-inline-block text-primary highlighted-word highlighted-word-rotate highlighted-word-animation-1 highlighted-word-animation-1-no-animate alternative-font-3 font-weight-bold text-1 ms-2">IMAQ</span></span></h1>
-                    <p class="custom-font-size-1">Somos líderes en la maquila cosmética. <a href="#intro" data-hash data-hash-offset="120" class="text-color-light font-weight-semibold text-1 d-block text-decoration-none">Ver más <i class="fa fa-long-arrow-alt-right ms-1"></i></a></p>
+                    <p class="custom-font-size-1">Somos líderes en la industria cosmética. <a href="#intro" data-hash data-hash-offset="120" class="text-color-light font-weight-semibold text-1 d-block text-decoration-none">Ver más <i class="fa fa-long-arrow-alt-right ms-1"></i></a></p>
 
                     {{-- <p>
                         <a href="https://getbootstrap.com/" target="_blank">
@@ -39,15 +39,15 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-8 col-lg-6 col-xl-5 custom-header-bar position-relative py-4 pe-5 z-index-2">
+                <div class="col-md-8 col-lg-6 col-xl-5 custom-header-bar position-relative py-4 pe-5 z-index-2" >
                     <div>
-                        <div class="star-rating-wrap d-flex align-items-center justify-content-center position-relative text-dark text-5 py-2 mb-2">
+                        <div class="star-rating-wrap d-flex align-items-center justify-content-center position-relative text-warning text-5 py-2 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star ms-1"></i><i class="fas fa-star ms-1"></i><i class="fas fa-star ms-1"></i><i class="fas fa-star ms-1"></i>
                         </div>
 
-                        <h4 class="position-relative text-center font-weight-bold text-7 line-height-2 mb-0">Competimos con marcas reconocidas</h4>
+                        <h4 class="position-relative text-center font-weight-bold text-7 line-height-2 mb-0">Inspirados en las marcas más reconocidas a nivel mundial</h4>
 
-                        <p class="position-relative text-center font-weight-normal mb-1">* Más de 50 clientes confian en IMAQ</p>
+                        <p class="position-relative text-center font-weight-normal mb-1">* Tu marca, tu negocio, tu éxito</p>
                     </div>
                 </div>
             </div>
@@ -59,9 +59,10 @@
         <div class="container pb-5" style="min-height: 1000px;">
             <div class="row mb-5 pb-lg-3 counters">
                 <div class="col-lg-10 text-center offset-lg-1">
+                    <img xsrc="img/lazy.png" data-src="img/landing/logomarcaimaq.png" class="lazyload ximg-fluid xborder xborder-width-10 xborder-color-light xbox-shadow-3 xrounded" xalt="Screenshot 3">
                     <h2 class="font-weight-bold text-9 mb-0">IMAQ<br>Industrial Maquiladora</h2>
                     <p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4">Manufacturamos <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">productos de gran calidad</span></p>
-                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5">Somos una empresa orgullosamente mexicana con más de 60 años de experiencia en el ramo cosmético. Nuestra misión es fabricar cosméticos ofreciendo un servicio completo e inmediato con la más alta calidad.</p>
+                    <p class="text-1rem text-color-dark negative-ls-05 pt-3 pb-4 mb-5">Somos una empresa orgullosamente mexicana con más de 60 años de experiencia en el ramo cosmético. Nuestra misión es fabricar cosméticos ofreciendo un servicio completo e inmediato con las mas altas estándares de calidad.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 offset-lg-2 counter mb-5 mb-md-0">
                     <div class="appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
@@ -73,10 +74,10 @@
                 </div>
                 <div class="col-sm-6 col-lg-4 counter divider-left-border">
                     <div class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
-                        <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="40" data-append="K+" data-plugin-options="{'accY': 50}">0</h3>
-                        <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">Diseños</label>
-                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">100K+ IN ALL VERSIONS</p>
-                        <p class="mb-0"><a href="" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none" target="_blank">VER DISEÑO <i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
+                        <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="2" data-append="K+" data-plugin-options="{'accY': 50}">0</h3>
+                        <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">Productos</label>
+                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">2k+ Diseños</p>
+                        <p class="mb-0"><a href="#" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none" target="_blank">VER DISEÑO <i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -107,7 +108,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-4">
                     <h2 class="text-7 font-weight-semibold line-height-2 mb-2">Ventajas competitivas.</h2>
-                    <p>Integramos la idea proporcionada por el cliente brindando tecnología de vanguardia.</p>
+                    <p class="text-color-dark">Integramos la idea proporcionada por el cliente brindando tecnología de vanguardia.</p>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
                     <i class="icon-bg icon-1"></i>
@@ -126,7 +127,7 @@
                     <h2 class="font-weight-bold text-center text-10 pt-3 mb-4">Ya puedes tener tu propia marca de cosméticos</h2>
                 </div>
                 <div class="col-lg-8 offset-lg-2 px-lg-0 text-center">
-                    <p class="text-4">Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles..</p>
+                    <p class="text-color-dark text-4">Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles.</p>
                 </div>
             </div>
             <div class="image-wrapper position-relative z-index-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750" style="height: 0; padding-bottom: 16%;">
@@ -135,7 +136,8 @@
         </div>
     </section>
 
-    <section class="section section-no-border section-angled section-dark pb-0 m-0" style="background-repeat: no-repeat; background-color: #0169fe !important;" data-src="img/landing/reason_bg.png">
+    {{-- <section class="section section-no-border section-angled section-dark pb-0 m-0" style="background-repeat: no-repeat; background-color: #0169fe !important;" data-src="img/landing/reason_bg.png"> --}}
+    <section class="section section-no-border section-angled section-dark pb-0 m-0" style="background-repeat: no-repeat; background-color: #ffffff !important;" data-src="img/landing/reason_bg.png">
         <div class="section-angled-layer-top section-angled-layer-increase-angle bg-color-light-scale-1" style="padding: 4rem 0;"></div>
         <div class="spacer py-md-4 my-md-5"></div>
         <div class="container pt-5 mt-5">
@@ -145,10 +147,10 @@
                         <img src="img/lazy.png" data-src="img/landing/porto_dots.png" width="154" height="146" class="lazyload position-absolute top-auto" alt="6 reasons" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 3, 'transition': true}" style="bottom: 184px; left: 70px;">
                     </div>
                     <div class="text-reasons">
-                        <label class="text-color-light appear-animation z-index-1" data-appear-animation="blurIn" data-appear-animation-delay="250" data-appear-animation-duration="750">6</label>
-                        <h3 class="text-4 text-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="450" data-appear-animation-duration="750">Razones</h3>
-                        <h3 class="text-4 text-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">Para trabajar con</h3>
-                        <h3 class="text-4 text-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="950" data-appear-animation-duration="750"><span class="highlight-word light">IMAQ</span></h3>
+                        <label class="text-color-secondary appear-animation z-index-1"  data-appear-animation="blurIn" data-appear-animation-delay="250" data-appear-animation-duration="750">6</label>
+                        <h3 class="text-4 text-md-6 appear-animation" style="background-repeat: no-repeat; background-color: #2c4a9a !important;" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="450" data-appear-animation-duration="750">Razones</h3>
+                        <h3 class="text-4 text-md-6 appear-animation" style="background-repeat: no-repeat; background-color: #2c4a9a !important;" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">Para trabajar con</h3>
+                        <h3 class="text-4 text-md-6 appear-animation" style="background-repeat: no-repeat; background-color: #2c4a9a !important;" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="950" data-appear-animation-duration="750"><span class="highlight-word light">IMAQ</span></h3>
                     </div>
                 </div>
                 <div class="col-lg-5 col-xl-4 ps-lg-4 ps-xl-5 mb-5">
@@ -162,50 +164,50 @@
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">
                             <img class="lazyload img-fluid" alt="Speed Performance" src="img/lazy.png" data-src="img/landing/bases1.jpg">
                             <div class="d-flex align-items-center mb-2">
-                                <span class="text-color-dark font-weight-extra-bold text-12 me-2 line-height-1">1</span>
-                                <h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Experiencia</small>por más de 60 años</h4>
+                                <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">1</span>
+                                <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Experiencia</small>por más de 60 años</h4>
                             </div>
-                            <p class="pe-5 custom-text-color-1">Durante más de 60 años sabemos por experiencia lo que significa crear y lanzar marcas en el sector de la cosmética</p>
+                            <p class="text-color-primary pe-5 custom-text-color-1">Durante más de 60 años sabemos por experiencia lo que significa crear y lanzar marcas en el sector de la cosmética</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">
                             <img class="lazyload img-fluid" alt="Solid and tested base" src="img/lazy.png" data-src="img/landing/bases2.jpg">
                             <div class="d-flex align-items-center mb-2">
-                                <span class="text-color-dark font-weight-extra-bold text-12 me-2 line-height-1">2</span>
-                                <h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Contamos</small>con maquila</h4>
+                                <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">2</span>
+                                <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Contamos</small>con maquila</h4>
                             </div>
-                            <p class="pe-5 custom-text-color-1">Contamos con instalaciones propias para hacer pruebas de resultados y control.</p>
+                            <p class="text-color-primary pe-5 custom-text-color-1">Contamos con instalaciones propias para hacer pruebas de resultados y control.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750">
                             <img class="lazyload img-fluid" alt="Top designs created by usability specialists" src="img/lazy.png" data-src="img/landing/bases3.jpg">
                             <div class="d-flex align-items-center mb-2">
-                                <span class="text-color-dark font-weight-extra-bold text-12 me-2 line-height-1">3</span>
-                                <h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Asesor</small>asignado para ti</h4>
+                                <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">3</span>
+                                <h4 class=" text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Asesor</small>asignado para ti</h4>
                             </div>
-                            <p class="pe-5 custom-text-color-1">Contarás con un asesor que te estará atendiendo en todo el proceso de fabricación.</p>
+                            <p class="text-color-primary pe-5 custom-text-color-1">Contarás con un asesor que te estará atendiendo en todo el proceso de fabricación.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300" data-appear-animation-duration="750">
                             <img class="lazyload img-fluid" alt="The best customer experience" src="img/lazy.png" data-src="img/landing/bases4.jpg">
                             <div class="d-flex align-items-center mb-2">
-                                <span class="text-color-dark font-weight-extra-bold text-12 me-2 line-height-1">4</span>
-                                <h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Departamento</small>de diseño</h4>
+                                <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">4</span>
+                                <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Departamento</small>de diseño</h4>
                             </div>
-                            <p class="pe-5 custom-text-color-1">Contamos con un departamento de diseño gráfico para brindar apoyo y asesoramiento.</p>
+                            <p class="text-color-primary pe-5 custom-text-color-1">Contamos con un departamento de diseño gráfico para brindar apoyo y asesoramiento.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">
                             <img class="lazyload img-fluid" alt="Works perfectly with Porto Admin Template" src="img/lazy.png" data-src="img/landing/bases5.jpg">
                             <div class="d-flex align-items-center mb-2">
-                                <span class="text-color-dark font-weight-extra-bold text-12 me-2 line-height-1">5</span>
-                                <h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Contamos</small>con Químicos</h4>
+                                <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">5</span>
+                                <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Contamos</small>con Químicos</h4>
                             </div>
-                            <p class="pe-5 custom-text-color-1">Nuestros químicos están a disposición para hacer las recomendaciones durante la fabricación de tu producto.</p>
+                            <p class="text-color-primary pe-5 custom-text-color-1">Nuestros químicos están a disposición para hacer las recomendaciones durante la fabricación de tu producto.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Always keep template updates" src="img/lazy.png" data-src="img/landing/bases6.jpg">
+                            <img class="lazyload img-fluid" alt="Always keep template updates" src="img/lazy.png" data-src="img/landing/sin-expe.jpg">
                             <div class="d-flex align-items-center mb-2">
-                                <span class="text-color-dark font-weight-extra-bold text-12 me-2 line-height-1">6</span>
-                                <h4 class="d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">No testeo</small>en animales</h4>
+                                <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">6</span>
+                                <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">No testeo</small>en animales</h4>
                             </div>
-                            <p class="pe-5 custom-text-color-1">Nuestros productos o ingredientes no son testeados de ninguna forma en animales.</p>
+                            <p class="text-color-primary pe-5 custom-text-color-1">Nuestros productos o ingredientes no son testeados de ninguna forma en animales.</p>
                         </div>
                     </div>
                 </div>
@@ -213,10 +215,11 @@
             <div class="text-center">
                 <a href="https://wa.me/message/V64WQZ2OHK4LP1" class="btn btn-dark btn-rounded btn-modern btn-px-5 text-3 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300" target="_blank">CONTACTAR AHORA!</a>
             </div>
+            <br>
         </div>
     </section>
 
-    <section class="section section-no-border section-angled bg-color-light-scale-1 m-0">
+    {{-- <section class="section section-no-border section-angled bg-color-light-scale-1 m-0">
         <div class="section-angled-layer-top section-angled-layer-increase-angle" style="padding: 5rem 0; background-color: #0169fe;"></div>
         <div class="container py-5 my-5">
             <div class="row align-items-center text-center my-5">
@@ -239,9 +242,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="section border-0 section-dark section-angled section-angled-reverse section-funnel m-0 position-relative overflow-visible lazyload" style="background-image: url(img/lazy.png); background-size: 100%; background-position: top; background-repeat: no-repeat;" data-bg-src="img/landing/porto_performance_bg.png">
+    {{-- <section class="section border-0 section-dark section-angled section-angled-reverse section-funnel m-0 position-relative overflow-visible lazyload" style="background-image: url(img/lazy.png); background-size: 100%; background-position: top; background-repeat: no-repeat;" data-bg-src="img/landing/porto_performance_bg.png">
         <div class="section-angled-layer-top section-angled-layer-increase-angle" style="padding: 5rem 0; background-color: #22252a;"></div>
         <svg version="1.1" viewBox="500 200 600 900" width="1920" height="100%" xmlns="http://www.w3.org/2000/svg" class="background-svg-style-1" style="top: 120px;" data-appear-animation-svg="true">
             <defs>
@@ -305,18 +308,86 @@
             <div class="section-funnel-layer bg-light"></div>
             <div class="section-funnel-layer bg-light"></div>
         </div>
+    </section> --}}
+
+    <section class="section section-funnel border-0 bg-light lazyload m-0" xstyle="background-size: 100%; background-repeat: no-repeat; background-position: top;" xdata-bg-src="img/landing/half_circle.png">
+        <div class="container text-center pb-5 mt-3 mb-5">
+            <h2 class="font-weight-bold text-9 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Inicia tu negocio</h2>
+            <h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">En tan sólo 5 pasos</h5>
+        </div>
+        <div class="row text-center center">
+
+                <div class="row mt-2 text-center center">
+                    <div class="col text-center center">
+                        <div class="row process process-shapes process-shapes-always-animate my-5">
+                            <div class="process-step col-lg-3 mb-5 mb-lg-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                                <div class="process-step-circle">
+                                    <strong class="process-step-circle-content">01</strong>
+                                </div>
+                                <div class="process-step-content">
+                                    <h4 class="mb-1 text-5 font-weight-bold">Contáctanos</h4>
+                                    <p class="text-color-dark mb-0">Envíanos un <a href="mailto:contacto@industrialmaquiladora.com">correo electrónico</a> o un mensaje vía WhatsApp al siguiente número <a href="https://wa.me/message/V64WQZ2OHK4LP1">5620949468</a></p>
+                                </div>
+                            </div>
+                            <div class="process-step col-lg-2 mb-5 mb-lg-2 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" style="animation-delay: 400ms;">
+                                <div class="process-step-circle process-shapes-always-animate-delay">
+                                    <strong class="process-step-circle-content">02</strong>
+                                </div>
+                                <div class="process-step-content">
+                                    <h4 class="mb-1 text-5 font-weight-bold">Elige tus productos</h4>
+                                    <p class="text-color-dark mb-0">Elige productos y tonos.</p>
+                                </div>
+                            </div>
+                            <div class="process-step col-lg-3 mb-5 mb-lg-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" style="animation-delay: 600ms;">
+                                <div class="process-step-circle">
+                                    <strong class="process-step-circle-content">03</strong>
+                                </div>
+                                <div class="process-step-content">
+                                    <h4 class="mb-1 text-5 font-weight-bold">Cotización</h4>
+                                    <p class="text-color-dark mb-0">Una vez seleccionado los productos que requieres, selecciona la cantidad y modelo que necesitas</p>
+                                </div>
+                            </div>
+                            {{-- <div class="process-step col-lg-2 mb-5 mb-lg-2 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 600ms;">
+                                <div class="process-step-circle">
+                                    <strong class="process-step-circle-content">04</strong>
+                                </div>
+                                <div class="process-step-content">
+                                    <h4 class="mb-1 text-5 font-weight-bold">Proporciona información</h4>
+                                    <p class="text-color-dark mb-0">Proporciónanos el medio por el que tus clientes te contactarán: redes sociales, página Web, etc. Mándanos tu logo en formato .ai.</p>
+                                </div>
+                            </div> --}}
+                            <div class="process-step col-lg-2 mb-5 mb-lg-2 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 600ms;">
+                                <div class="process-step-circle">
+                                    <strong class="process-step-circle-content">04</strong>
+                                </div>
+                                <div class="process-step-content">
+                                    <h4 class="mb-1 text-5 font-weight-bold">Recibe tus productos</h4>
+                                    <p class="text-color-dark mb-0">Recibe tus productos personalizados</p>
+                                </div>
+                            </div>
+                            <div class="process-step col-lg-2 mb-5 mb-lg-2 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200" style="animation-delay: 600ms;">
+                                <div class="process-step-circle">
+                                    <strong class="process-step-circle-content">05</strong>
+                                </div>
+                                <div class="process-step-content">
+                                    <h4 class="mb-1 text-5 font-weight-bold">Comienza tu negocio</h4>
+                                    <p class="text-color-dark mb-0">Felicidades!.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
     </section>
+
+
 
     <section id="demos" class="section section-no-border section-light position-relative z-index-3 pt-0 m-0">
         <div class="container">
             <div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">
                 <div class="col-lg-8 offset-lg-2 text-center">
-                    <ul class="list list-unstyled d-flex justify-content-center text-primary font-weight-semibold positive-ls-2 flex-column flex-md-row text-4 mb-4">
-                        <li>1. SELECT DEMO</li>
-                        <li class="mx-5">2. CUSTOMIZE</li>
-                        <li>3. DONE</li>
-                    </ul>
-                    <p class="text-4 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750">IMAQ Industrial Maquiladora es una empresa que se compromete con los clientes y entregar sus pedidos de manera eficaz y eficiente.</p>
+                    <p class="text-color-dark text-4 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" data-appear-animation-duration="750">IMAQ Industrial Maquiladora es una empresa que se compromete con los clientes y entregar sus pedidos de manera eficaz y eficiente.</p>
                     <p class="d-flex align-items-center justify-content-center font-weight-bold text-color-dark text-8 negative-ls-1 pb-3 mb-4 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="600"><span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1-2-dark highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-extra-bold line-height-1 text-9 me-3">80+</span> Clientes satisfechos</p>
                 </div>
             </div>
@@ -338,6 +409,19 @@
             </div>
             <div class="row portfolio-list sort-destination sort-destination-margin sort-destination-items-hardware-acc overflow-visible mt-4" data-sort-id="portfolio">
 
+
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-1-5 isotope-item classic">
+                        <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" data-appear-animation-duration="750">
+                            <div class="portfolio-item hover-effect-1 text-center">
+                                <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
+                                    <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/crema1.jpg">
+                                        <a href="index-classic.html"></a>
+                                    </span>
+                                </span>
+                                <h5 class="text-color-dark text-capitalize mt-3">Crema 1</h5>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-3 col-xl-1-5 isotope-item classic">
                         <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" data-appear-animation-duration="750">
@@ -1688,23 +1772,25 @@
         <div class="container py-5 mt-5">
             <div class="row align-items-center mt-4 pt-2">
                 <div class="col-lg-6 pe-lg-5 position-relative text-center mb-5 mb-lg-0">
-                    <img alt="Porto Headers" src="img/lazy.png" data-src="img/landing/porto_headers.png" class="img-fluid lazyload appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" />
+                    {{-- <img alt="Porto Headers" src="img/lazy.png" data-src="img/landing/porto_headers.png" class="img-fluid lazyload appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" /> --}}
+                    <img alt="Porto Headers" src="img/lazy.png" data-src="img/landing/Mockupx.jpg" class="img-fluid lazyload appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" />
                 </div>
                 <div class="col-lg-5 text-center px-lg-0">
-                    <h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">ADVANCED USABILITY-FOCUSED </h5>
-                    <h2 class="font-weight-bold text-9 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">Headers and Menus</h2>
-                    <p class="custom-text-color-1 color-inherit appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">Porto comes with several headers and menus options for you to use on your website. We have created several options always focused on the best user experience to improve your business.</p>
-                    <p class="custom-text-color-1 color-inherit pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750">Select any of the options we have giver you or create your own.</p>
+                    {{-- <h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">ADVANCED USABILITY-FOCUSED </h5> --}}
+                    <h2 class="font-weight-bold text-9 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">Servicios personalizados</h2>
+                    <p class="text-color-white appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">En IMAQ Industrial Maquiladora ofrecemos servicios profesionales personalizados, que incluyen la fabricación de productos cosméticos, la selección de envases y empaque, la serigrafía o la adquisición de etiquetas.</p>
+                    <p class="text-color-white pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750">Nuestros conocimientos y experiencias en la Industria Cosmética te ayudarán y respaldarán para tomar las mejores decisiones</p>
                     <div class="d-flex align-items-center justify-content-center">
                         <i class="fa fa-check text-color-primary bg-light rounded-circle p-2 me-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1600" data-appear-animation-duration="750"></i>
-                        <p class="mb-0 line-height-5 ls-0 text-color-light font-weight-semibold appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1300" data-appear-animation-duration="750">Menus, Nav Icons, Search Icons, Mini Cart,<br>Account Items, Search and much more...</p>
+                        <p class="mb-0 line-height-5 ls-0 text-color-light font-weight-semibold appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1300" data-appear-animation-duration="750">Nuestro grupo de profesionales trabajara contigo lado a lado para convertir tus sueños, el estilo y las ideas de tus productos en realidad<br></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <br><br>
 
-    <section class="section section-funnel border-0 bg-light lazyload m-0" style="background-size: 100%; background-repeat: no-repeat; background-position: top;" data-bg-src="img/landing/half_circle.png">
+    {{-- <section class="section section-funnel border-0 bg-light lazyload m-0" style="background-size: 100%; background-repeat: no-repeat; background-position: top;" data-bg-src="img/landing/half_circle.png">
         <div class="container text-center pb-5 mt-3 mb-5">
             <h2 class="font-weight-bold text-9 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Layouts</h2>
             <h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">GIANT LIBRARY OF VARIATIONS</h5>
@@ -1744,18 +1830,17 @@
             <div class="section-funnel-layer bg-color-light-scale-1"></div>
             <div class="section-funnel-layer bg-color-light-scale-1"></div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="section section-funnel position-relative border-0 pt-0 m-0">
+    {{-- <section class="section section-funnel position-relative border-0 pt-0 m-0">
         <div class="container pb-5 mb-5">
             <h2 class="fotn-weight-extra-bold mb-1 text-center">
-                <b class="text-13 d-block line-height-1 font-weight-extra-bold appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="250" data-appear-animation-duration="750">40K+</b>
-                <span class="font-weight-bold text-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">People Already Using Porto</span>
+                <b class="text-13 d-block line-height-1 font-weight-extra-bold appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="250" data-appear-animation-duration="750">80+</b>
+                <span class="font-weight-bold text-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">Testimonios de nuestros clientes</span>
             </h2>
-            <p class="font-weight-bold text-4 text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">100K+ IN ALL PORTO VERSIONS</p>
             <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="850" data-appear-animation-duration="850">
-                <h5 class="font-weight-semibold positive-ls-2 text-4 text-primary text-center mb-0">TOP 5 STAR RATING</h5>
-                <p class="text-default text-center mb-4">Real people, real stories. Hear from our community.</p>
+                <h5 class="font-weight-semibold positive-ls-2 text-4 text-primary text-center mb-0">LÍDERES EN LA INDUSTRIA COSMÉTICA</h5>
+                <p class="text-color-dark text-center mb-4">Personas reales, historias reales. Escuche de nuestra comunidad..</p>
 
                 <div class="owl-carousel carousel-center-active-item-2 nav-style-4 mb-4 pb-3" data-plugin-options="{'items': 1, 'loop': true, 'nav': true, 'dots': false}">
                     <div>
@@ -1879,41 +1964,101 @@
             <div class="section-funnel-layer bg-light"></div>
             <div class="section-funnel-layer bg-light"></div>
         </div>
-    </section>
+    </section> --}}
 
     <section id="support" class="section section-angled bg-light border-0 m-0 position-relative pt-0">
         <div class="container pb-5 mb-5">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6 pe-xl-5 mb-5 mb-lg-0">
-                    <h2 class="font-weight-bold text-9 mb-1">Professional Support</h2>
-                    <h5 class="font-weight-semibold positive-ls-2 text-4 text-primary mb-3">ONLINE DOCUMENTATION, VIDEOS AND FORUM</h5>
-                    <p class="ls-0 text-default fw-400 mb-5">Any problem while using Porto? We're here to help you.</p>
+                    <h2 class="font-weight-bold text-9 mb-1">Los mejores servicios</h2>
+                    <h5 class="font-weight-semibold positive-ls-2 text-4 text-primary mb-3">TRAE TUS SUEÑOS Y LOS CONVERTIMOS EN REALIDAD</h5>
+                    {{-- <p class="ls-0 text-default fw-400 mb-5">Any problem while using Porto? We're here to help you.</p> --}}
                     <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-4 mb-4">
                         <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
-                        <p class="mb-0"><b class="text-color-dark">Online Documentation -</b> Contains all descriptions related to Porto usage and features.</p>
+                        <p class="mb-0"><b class="text-color-dark">Envasado -</b> Fabricación de envases Nacionales inyectados y soplados, así como importados.</p>
                     </div>
                     <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-4 mb-4">
                         <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
-                        <p class="mb-0 mb-0 opacity-5"><b class="text-color-dark">Video Documentation (coming soon) -</b> Need visual instructions? Check our video tutorials.</p>
+                        <p class="mb-0"><b class="text-color-dark">Decorado -</b> Contamos con distintos sistemas de impresión: Hot Stamping, Serigrafía, Tampografía.</p>
                     </div>
                     <div class="d-flex align-items-center pb-4 mb-4">
                         <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
-                        <p class="mb-0"><b class="text-color-dark">Support Center -</b> Contact us if you get any issue while using Porto, reply within 16 hrs.</p>
+                        <p class="mb-0"><b class="text-color-dark">Flexografía -</b> Fabricamos nuestras propias etiquetas que complementan el producto (Hasta 3,4 y 8 colores).</p>
+                    </div>
+                    <div class="d-flex align-items-center pb-4 mb-4">
+                        <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
+                        <p class="mb-0"><b class="text-color-dark">Producto -</b> Importación de envases y accesorios. Desarrollo del producto, manufactura y producto terminado.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-2 position-relative">
                     <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="500">
                         <img class="img-fluid lazyload" src="img/lazy.png" data-src="img/landing/porto_dots2.png" alt="" style="position: absolute; bottom: -2%; left: -43%; transform: rotate(90deg)">
                     </div>
-                    <img alt="Porto Support" src="img/lazy.png" data-src="img/landing/support_login.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="200" style="width: 590px; max-width: none;">
-                    <img alt="Porto Documentation" src="img/lazy.png" data-src="img/landing/porto_docs.jpg" class="img-fluid lazyload rounded box-shadow-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="700" style="left: -100px; bottom: 50px;">
+                    {{-- <img alt="Porto Support" src="img/lazy.png" data-src="img/landing/support_login.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="200" style="width: 590px; max-width: none;"> --}}
+                    <img alt="Porto Support" src="img/lazy.png" data-src="img/landing/servicio2.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="200" style="width: 590px; max-width: none;">
+                    {{-- <img alt="Porto Documentation" src="img/lazy.png" data-src="img/landing/porto_docs.jpg" class="img-fluid lazyload rounded box-shadow-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="700" style="left: -100px; bottom: 50px;"> --}}
+                    <img alt="Porto Documentation" src="img/lazy.png" data-src="img/landing/servicio1.jpg" class="img-fluid lazyload rounded box-shadow-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="700" style="left: -100px; bottom: 50px;">
                 </div>
             </div>
         </div>
-        <div class="section-angled-layer-bottom section-angled-layer-increase-angle" style="padding: 4rem 0; background: #222529;"></div>
+        {{-- <div class="section-angled-layer-bottom section-angled-layer-increase-angle" style="padding: 4rem 0; background: #222529;"></div> --}}
     </section>
 
-    <section class="section bg-dark section-dark border-0 m-0">
+
+    {{-- CLIENTES --}}
+    {{-- <section class="section section-funnel border-0 bg-light lazyload m-0" xstyle="background-size: 100%; background-repeat: no-repeat; background-position: top;" xdata-bg-src="img/landing/half_circle.png">
+        <div class="container text-center pb-5 mt-3 mb-5">
+            <h2 class="font-weight-bold text-9 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Clientes</h2>
+            <h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">CLIENTES SATISFECHOS</h5>
+        </div>
+        <div class="row">
+            <div class="owl-carousel owl-theme carousel-center-active-item owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 5}, '992': {'items': 7}, '1200': {'items': 7}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': false}" style="height: auto;">
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2340px, 0px, 0px); transition: all 0.25s ease 0s; width: 6240px;"><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-5.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-6.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-4.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                    </div></div><div class="owl-item" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-1.png" alt="">
+                    </div></div><div class="owl-item" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                    </div></div><div class="owl-item active current" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-3.png" alt="">
+                    </div></div><div class="owl-item" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-4.png" alt="">
+                    </div></div><div class="owl-item" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-5.png" alt="">
+                    </div></div><div class="owl-item" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-6.png" alt="">
+                    </div></div><div class="owl-item" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-4.png" alt="">
+                    </div></div><div class="owl-item" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-1.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-3.png" alt="">
+                    </div></div><div class="owl-item cloned" style="width: 390px;"><div>
+                        <img class="img-fluid" src="img/logos/logo-4.png" alt="">
+                    </div></div></div>
+                </div>
+                <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation" class="owl-next"></button>
+                </div>
+                <div class="owl-dots disabled"></div>
+            </div>
+
+        </div>
+    </section> --}}
+    {{-- FIN CLIENTES --}}
+
+
+
+    {{-- <section class="section bg-dark section-dark border-0 m-0">
         <div class="container">
             <div class="text-center mb-5">
                 <h5 class="font-weight-semibold positive-ls-2 text-4 text-primary mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">POWERFUL AND COMPLETE</h5>
@@ -2042,7 +2187,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     {{-- <section class="section section-elements m-0 section-no-border bg-bottom-slash position-relative z-index-1">
         <div class="container text-center mt-4">
@@ -2685,7 +2830,7 @@
         </div>
     </section> --}}
 
-    <section class="section section-dark section-angled border-0 lazyload pb-0 m-0" style="background-size: 100%; background-position: top;" data-bg-src="img/landing/build_bg.jpg">
+    {{-- <section class="section section-dark section-angled border-0 lazyload pb-0 m-0" style="background-size: 100%; background-position: top;" data-bg-src="img/landing/build_bg.jpg">
         <div class="section-angled-layer-top section-angled-layer-increase-angle bg-color-light-scale-1" style="padding: 4rem 0;"></div>
         <div class="container text-center my-5 py-5">
             <h2 class="font-weight-bold line-height-3 text-12 mt-5 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">Build your website with Porto</h2>
@@ -2742,20 +2887,20 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="section bg-color-dark-scale-2 border-0 m-0 py-4">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <ul class="list list-unstyled list-inline d-flex align-items-center justify-content-center flex-column flex-lg-row mb-0">
-                        <li class="list-inline-item custom-text-color-1 color-inherit mb-lg-0 text-2 pe-2">Porto Versions:</li>
-                        <li class="list-inline-item mb-lg-0"><a href="https://themeforest.net/item/porto-admin-responsive-html5-template/8539472" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">ADMIN HTML</a></li>
-                        <li class="list-inline-item mb-lg-0"><a href="https://themeforest.net/item/porto-ecommerce-shop-template/22685562" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">SHOP HTML</a></li>
-                        <li class="list-inline-item mb-lg-0"><a href="https://themeforest.net/item/porto-responsive-wordpress-ecommerce-theme/9207399" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">WORDPRESS</a></li>
-                        <li class="list-inline-item mb-lg-0"><a href="https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">MAGENTO</a></li>
-                        <li class="list-inline-item mb-lg-0"><a href="https://themeforest.net/item/porto-ultimate-responsive-shopify-theme/19162959" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">SHOPIFY</a></li>
-                        <li class="list-inline-item mb-lg-0"><a href="https://themeforest.net/item/porto-responsive-drupal-7-theme/5219986" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">DRUPAL</a></li>
+                        <li class="text-color-white list-inline-item Xcustom-text-color-1 Xcolor-inherit mb-lg-0 text-2 pe-2">Tu propia marca:</li>
+                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-admin-responsive-html5-template/8539472" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">MAQUILLAJES</a></li>
+                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-ecommerce-shop-template/22685562" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">LABIALES</a></li>
+                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-responsive-wordpress-ecommerce-theme/9207399" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">SKICARE</a></li>
+                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">DELINEADORES</a></li>
+                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-ultimate-responsive-shopify-theme/19162959" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">SOMBRAS</a></li>
+                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-responsive-drupal-7-theme/5219986" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">PIGMENTOS</a></li>
                     </ul>
                 </div>
             </div>
