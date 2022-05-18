@@ -55,5 +55,8 @@
         <!-- Head Libs -->
         <script src="{{ asset('vendor/modernizr/modernizr.min.js?v='.rand()) }}"></script>
 
+        {{-- Fontwesome --}}
+        <script src="https://kit.fontawesome.com/d97648113a.js" crossorigin="anonymous"></script>
+
     </head>
     <body data-plugin-page-transition>

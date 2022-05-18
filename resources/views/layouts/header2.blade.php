@@ -26,7 +26,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" data-hash data-hash-offset="130" href="#demos">
+                                            <a class="dropdown-item" href="{{ route('viewdiseño') }}">
                                                 Diseños
                                             </a>
                                         </li>
@@ -36,22 +36,22 @@
                                             </a>
                                         </li> --}}
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="/">
+                                            <a class="dropdown-item" href="{{ route('viewenvase') }}">
                                                 Envase
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="/">
+                                            <a class="dropdown-item" href="{{ route('viewimpresion') }}">
                                                 Impresión
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="/">
+                                            <a class="dropdown-item" href="{{ route('viewetiquetado') }}">
                                                 Etiquetado
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="/">
+                                            <a class="dropdown-item" href="{{ route('viewacabado') }}">
                                                 Acabado
                                             </a>
                                         </li>

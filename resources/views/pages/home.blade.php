@@ -2005,6 +2005,72 @@
     </section>
 
 
+        <div class="container col-lg-12">
+
+            <div class="row mb-12">
+                <div class="col-lg-7">
+
+                    <h2 class="font-weight-bold text-7 mt-2 mb-0">Contáctanos</h2>
+                    <p class="text-color-dark mb-4">Siéntase libre de pedir detalles!</p>
+
+                    <form class="contact-form-recaptcha-v3" action="https://www.industrialmaquiladora.com/contact-us" method="POST" novalidate="novalidate">
+                        <div class="contact-form-success alert alert-success d-none mt-4">
+                            <strong>Gracias!</strong> Su mensaje a sido enviado.
+                        </div>
+
+                        <div class="contact-form-error alert alert-danger d-none mt-4">
+                            <strong>Error!</strong> Hubo un error al enviar su mensaje.
+                            <span class="mail-error-message text-1 d-block"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label class="text-color-dark form-label mb-1 text-2">Nombre completo:</label>
+                                <input type="text" value="" data-msg-required="Por favor escriba su nombre completo." maxlength="100" class="form-control text-3 h-auto py-2" name="name" required="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label class="text-color-dark form-label mb-1 text-2">Correo electrónico:</label>
+                                <input type="email" value="" data-msg-required="Por favor escriba su correo electrónico" data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-2" name="email" required="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label class="text-color-dark form-label mb-1 text-2">Asunto:</label>
+                                <input type="text" value="" data-msg-required="Escriba el asunto" maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label class="text-color-dark form-label mb-1 text-2">Mensaje:</label>
+                                <textarea maxlength="5000" data-msg-required="Por favor escriba su mensaje" rows="5" class="form-control text-3 h-auto py-2" name="message" required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <input type="submit" value="Enviar mensaje" class="btn btn-primary btn-modern" data-loading-text="Cargando...">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-lg-12 offset-lg-1 appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="800" data-plugin-options="{'accY': -200}" style="animation-delay: 800ms;">
+    
+                        <h4 class="pt-5">Nuestra <strong>Oficina</strong></h4>
+                        <ul class="list list-icons list-icons-style-3 mt-2">
+                            <li class="text-color-dark"><i class="fas fa-map-marker-alt top-6"></i> <strong>Dirección:</strong> Calle 3, Nº 47, Int. 103, Industrial Alce Blanco, Naucalpan de Juárez, Estado de México</li>
+                            <li class="text-color-dark"><i class="fas fa-map-location-dot top-6"></i> <strong><a href="https://g.page/imaq-industrial-maquiladora?share" class="text-decoration-none" target="_blanck">Ir a Google Maps:</a></strong> <a href="https://g.page/imaq-industrial-maquiladora?share" target="_blanck">Clic Aquí</a></li>
+                            <li class="text-color-dark"><i class="fas fa-phone top-6"></i> <strong>Teléfono:</strong> <a class="text-color-dark text-color-hover-primary text-decoration-none" href="tel:5571592358">55 7159 2358</a></li>
+                            <li class="text-color-dark"><i class="fas fa-envelope top-6"></i> <strong>Correo:</strong> <a class="text-color-dark text-color-hover-primary text-decoration-none" href="mailto:ventas@industrialmaquiladora.com">ventas@industrialmaquiladora.com</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
     {{-- CLIENTES --}}
     {{-- <section class="section section-funnel border-0 bg-light lazyload m-0" xstyle="background-size: 100%; background-repeat: no-repeat; background-position: top;" xdata-bg-src="img/landing/half_circle.png">
         <div class="container text-center pb-5 mt-3 mb-5">
