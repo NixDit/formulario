@@ -8,14 +8,14 @@
 
         <title>@yield('title')</title>
 
-        <meta name="description" content="Una empresa orgullosamente mexicana. Somos líderes en la Industria Cosmética. Crea tu propia marca de cosméticos. Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles. Fabricante de cosméticos">
+        <meta name="description" content="Somos líderes en la Industria Cosmética. Crea tu propia marca de cosméticos. Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles. Fabricante de cosméticos">
         <meta name="keywords" content="IMAQ Industrial Maquiladora, Marca de cosméticos, Tu propia marca de cosméticos, Crea y Personaliza tu marca de cosméticos, Industria cosmética en México, Marca de maquillaje, labiales, skincare, rubor, Fabricante de cosmeticos" />
         <meta name="author" content="industrialmaquiladora.com">
         <meta property="og:locale" content="es_MX" />
         <meta property="og:type" content="websites" />
         <meta property="og:title" content="IMAQ | Industrial Maquiladora - Fabricante de Cosméticos" />
         <meta property="og:url" content="https://industrialmaquiladora.com/" />
-		<meta property="og:site_name" content="IMAQ | Inudstrial Maquiladora, Industria Cosmética, Maquiladora de cosméticos, Maquiladora de maquillajes" />
+		<meta property="og:site_name" content="IMAQ | Industrial Maquiladora, Industria Cosmética, Maquiladora de cosméticos, Maquiladora de maquillajes" />
 		<link rel="canonical" href="https://industrialmaquiladora.com/" />
 
         <!-- Favicon -->
