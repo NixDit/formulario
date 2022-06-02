@@ -393,7 +393,7 @@
             </div>
         </div>
         <div class="container-fluid position-relative">
-            <div class="py-4 bg-light left-0 z-index-3 w-100" data-plugin-sticky data-plugin-options="{'minWidth': 991, 'padding': {'top': 70}}">
+            <div class="py-4 bg-light left-0 z-index-3 w-100" xdata-plugin-sticky data-plugin-options="{'minWidth': 991, 'padding': {'top': 70}}">
                 <div class="text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="400" data-appear-animation-duration="750">
                     <ul class="nav nav-pills sort-source sort-source-style-3 justify-content-center mb-0" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*', 'useHash': false}">
                         <li class="nav-item active" data-option-value="*"><a class="nav-link custom-nav-link active" href="#demos" data-hash data-hash-offset="-200">Ver todos</a></li>
@@ -2013,36 +2013,46 @@
                     <h2 class="font-weight-bold text-7 mt-2 mb-0">Contáctanos</h2>
                     <p class="text-color-dark mb-4">Siéntase libre de pedir detalles!</p>
 
-                    <form class="contact-form-recaptcha-v3" action="https://www.industrialmaquiladora.com/contact-us" method="POST" novalidate="novalidate">
-                        <div class="contact-form-success alert alert-success d-none mt-4">
-                            <strong>Gracias!</strong> Su mensaje a sido enviado.
-                        </div>
+                    <form class="contact-form-recaptcha-v3" action="{{  route('contact-us')  }}" method="POST" novalidate="novalidate">
+                        @csrf
 
-                        <div class="contact-form-error alert alert-danger d-none mt-4">
-                            <strong>Error!</strong> Hubo un error al enviar su mensaje.
-                            <span class="mail-error-message text-1 d-block"></span>
-                        </div>
+                        @if(session()->has('success'))
+                            <div class="contact-form-success alert alert-success mt-4">
+                                <strong>Enviado!</strong> Su mensaje ha sido enviado, le atenderemos lo más pronto posible.
+                            </div>
+                        @elseif(session()->has('error'))
+                            <div class="contact-form-error alert alert-danger mt-4">
+                                <strong>Error!</strong> Hubo un problema al enviar el mensaje, por favor intente nuevamente.
+                                <span class="mail-error-message text-1 d-block"></span>
+                            </div>
+                        @endif
 
                         <div class="row">
                             <div class="form-group col-lg-6">
                                 <label class="text-color-dark form-label mb-1 text-2">Nombre completo:</label>
-                                <input type="text" value="" data-msg-required="Por favor escriba su nombre completo." maxlength="100" class="form-control text-3 h-auto py-2" name="name" required="">
+                                <input type="text" data-msg-required="Por favor escriba su nombre completo." maxlength="100" class="form-control text-3 h-auto py-2 " name="name" value="{{ old('name') }}"  required="">
+                                {{-- @error('name')
+                                    <small class="text-danger">{{  $message  }}</small>
+                                @enderror --}}
                             </div>
                             <div class="form-group col-lg-6">
                                 <label class="text-color-dark form-label mb-1 text-2">Correo electrónico:</label>
-                                <input type="email" value="" data-msg-required="Por favor escriba su correo electrónico" data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-2" name="email" required="">
+                                <input type="email" value="{{ old('email') }}" data-msg-required="Por favor escriba su correo electrónico" data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-2 " name="email" required="">
+                                {{-- @error('email')
+                                    <small class="text-danger">{{  $message  }}</small>
+                                @enderror --}}
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
                                 <label class="text-color-dark form-label mb-1 text-2">Asunto:</label>
-                                <input type="text" value="" data-msg-required="Escriba el asunto" maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required="">
+                                <input type="text" value="{{ old('subject') }}" data-msg-required="Escriba el asunto" maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required="">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
                                 <label class="text-color-dark form-label mb-1 text-2">Mensaje:</label>
-                                <textarea maxlength="5000" data-msg-required="Por favor escriba su mensaje" rows="5" class="form-control text-3 h-auto py-2" name="message" required=""></textarea>
+                                <textarea maxlength="5000" data-msg-required="Por favor escriba su mensaje" rows="5" class="form-control text-3 h-auto py-2" name="message" required="">{{ old('message') }}</textarea>
                             </div>
                         </div>
                         <div class="row">

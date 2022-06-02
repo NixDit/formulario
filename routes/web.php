@@ -7,6 +7,8 @@ use App\Http\Controllers\Services\EnvaseController;
 use App\Http\Controllers\Services\ImpresionController;
 use App\Http\Controllers\Services\EtiquetadoController;
 use App\Http\Controllers\Services\AcabadoController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Blog\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +31,6 @@ Route::get('/envase',[EnvaseController::class,'index'])->name('viewenvase');
 Route::get('/impresion',[ImpresionController::class,'index'])->name('viewimpresion');
 Route::get('/etiquetado',[EtiquetadoController::class,'index'])->name('viewetiquetado');
 Route::get('/acabado',[AcabadoController::class,'index'])->name('viewacabado');
+Route::post('/contact-us', [HomeController::class, 'contact'])->name('contact-us');
+
+Route::get('/blog',[BlogController::class,'index'])->name('viewblog');
