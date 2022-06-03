@@ -11225,7 +11225,7 @@ body.page-transition-active {
 	opacity: 0 !important;
 }
 
-/* 
+/*
 Image 360º Viewer
 Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 */
@@ -18707,7 +18707,7 @@ section.section-custom-map section.section {
 	top: 10px;
 	right: 10px;
 	background: #CCC;
-	content: "NEW";
+	content: "NUEVO";
 	display: block;
 	padding: 0px 8px;
 	font-size: 9px;
@@ -18719,7 +18719,7 @@ section.section-custom-map section.section {
 }
 
 .portfolio-list .portfolio-item.portfolio-item-updated:after {
-	content: "UPDATED";
+	content: "DESTACADO";
 	background: #36C57A;
 }
 

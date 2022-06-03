@@ -1,6 +1,10 @@
 @extends('index')
 @section('title','IMAQ | Industrial Maquiladora OSC - Fabricante de cosméticos')
 @section('content')
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=5620949468&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20IMAQ%20." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
 <div role="main" class="main">
     <section class="section section-concept section-no-border section-dark section-angled section-angled-reverse pt-5 m-0" id="section-concept" style="background-image: url(img/landing/header_bg_4.jpg); background-size: cover; background-position: center; animation-duration: 750ms; animation-delay: 300ms; animation-fill-mode: forwards;">
         <div class="section-angled-layer-bottom bg-light" style="padding: 8rem 0;"></div>
@@ -415,36 +419,20 @@
                             <div class="portfolio-item hover-effect-1 text-center">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/crema1.jpg">
-                                        <a href="index-classic.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468&text=Hola.%20Quisiera%20empezar%20con%20mi%20marca%20de%20cremas" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Crema 1</h5>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-1-5 isotope-item classic">
-                        <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" data-appear-animation-duration="750">
-                            <div class="portfolio-item hover-effect-1 text-center">
-                                <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
-                                    <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/crema1.jpg">
-                                        <a href="index-classic.html"></a>
-                                    </span>
-                                </span>
-                                <h5 class="text-color-dark text-capitalize mt-3">Crema 1</h5>
-                            </div>
-                        </div>
-                    </div>
-
-
-
 
                     <div class="col-sm-6 col-md-4 col-lg-3 col-xl-1-5 isotope-item onepage">
                         <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" data-appear-animation-duration="750">
                             <div class="portfolio-item hover-effect-1 text-center">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/tonico1.jpg">
-                                        <a href="index-one-page.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468&text=Hola.%20Quiero%20empezar%20con%20mi%20propia%20marca%20de%20t%C3%B3nicos" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Tónico purificante</h5>
@@ -460,7 +448,7 @@
                             <div class="portfolio-item hover-effect-1 text-center">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/paletas1.jpg">
-                                        <a href="index-corporate.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Paleta</h5>
@@ -780,7 +768,7 @@
                             <div class="portfolio-item hover-effect-1 text-center portfolio-item-new">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/venta1.jpg">
-                                        <a href="index-corporate-21.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Kit Cremas</h5>
@@ -796,7 +784,7 @@
                             <div class="portfolio-item hover-effect-1 text-center">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/skincare1.jpg">
-                                        <a href="index-portfolio.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">SkinCare</h5>
@@ -876,7 +864,7 @@
                             <div class="portfolio-item hover-effect-1 text-center">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/cabello1.jpg">
-                                        <a href="index-blog.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Shampoo</h5>
@@ -972,7 +960,7 @@
                             <div class="portfolio-item hover-effect-1 text-center">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/crema2.jpg">
-                                        <a href="index-classic-color.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468&text=Hola.%20Quisiera%20empezar%20con%20mi%20marca%20de%20cremas"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Crema 2</h5>
@@ -1036,7 +1024,7 @@
                             <div class="portfolio-item hover-effect-1 text-center portfolio-item-updated">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/venta2.jpg">
-                                        <a href="demo-construction.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Kit 2</h5>
@@ -1276,7 +1264,7 @@
                             <div class="portfolio-item hover-effect-1 text-center">
                                 <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                     <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/labios1.jpg">
-                                        <a href="demo-product-landing.html"></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                     </span>
                                 </span>
                                 <h5 class="text-color-dark text-capitalize mt-3">Labios</h5>
@@ -1503,31 +1491,31 @@
                                 <div class="owl-carousel nav-dark show-nav-hover" data-plugin-options="{'items': 1, 'loop': true, 'nav': true, 'dots': false, 'autoplay': true, 'autoplayTimeout': 3000, 'autoplayHoverPause': true}">
                                     <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                         <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/crema1.jpg">
-                                            <a href="demo-resume.html"></a>
+                                            <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                         </span>
                                     </span>
 
                                     <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                         <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/crema2.jpg">
-                                            <a href="demo-resume-blue.html"></a>
+                                            <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                         </span>
                                     </span>
 
                                     <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                         <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/venta2.jpg">
-                                            <a href="demo-resume-red.html"></a>
+                                            <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                         </span>
                                     </span>
 
                                     <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                         <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="iimg/categoria/skincare1.jpg">
-                                            <a href="demo-resume-green.html"></a>
+                                            <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                         </span>
                                     </span>
 
                                     <span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg">
                                         <span class="thumb-info-wrapper thumb-info-wrapper-demos thumb-info-wrapper-link lazyload m-0" data-bg-src="img/categoria/cabello1.jpg">
-                                            <a href="demo-resume-dark.html"></a>
+                                            <a href="https://api.whatsapp.com/send?phone=5620949468" target="_blanck"></a>
                                         </span>
                                     </span>
 
@@ -2008,7 +1996,7 @@
         <div class="container col-lg-12">
 
             <div class="row mb-12">
-                <div class="col-lg-7">
+                {{-- <div class="col-lg-7">
 
                     <h2 class="font-weight-bold text-7 mt-2 mb-0">Contáctanos</h2>
                     <p class="text-color-dark mb-4">Siéntase libre de pedir detalles!</p>
@@ -2031,16 +2019,16 @@
                             <div class="form-group col-lg-6">
                                 <label class="text-color-dark form-label mb-1 text-2">Nombre completo:</label>
                                 <input type="text" data-msg-required="Por favor escriba su nombre completo." maxlength="100" class="form-control text-3 h-auto py-2 " name="name" value="{{ old('name') }}"  required="">
-                                {{-- @error('name')
+                                @error('name')
                                     <small class="text-danger">{{  $message  }}</small>
-                                @enderror --}}
+                                @enderror
                             </div>
                             <div class="form-group col-lg-6">
                                 <label class="text-color-dark form-label mb-1 text-2">Correo electrónico:</label>
                                 <input type="email" value="{{ old('email') }}" data-msg-required="Por favor escriba su correo electrónico" data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-2 " name="email" required="">
-                                {{-- @error('email')
+                                @error('email')
                                     <small class="text-danger">{{  $message  }}</small>
-                                @enderror --}}
+                                @enderror
                             </div>
                         </div>
                         <div class="row">
@@ -2061,10 +2049,10 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> --}}
                 <div class="col-lg-4">
                     <div class="col-lg-12 offset-lg-1 appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="800" data-plugin-options="{'accY': -200}" style="animation-delay: 800ms;">
-    
+
                         <h4 class="pt-5">Nuestra <strong>Oficina</strong></h4>
                         <ul class="list list-icons list-icons-style-3 mt-2">
                             <li class="text-color-dark"><i class="fas fa-map-marker-alt top-6"></i> <strong>Dirección:</strong> Calle 3, Nº 47, Int. 103, Industrial Alce Blanco, Naucalpan de Juárez, Estado de México</li>
@@ -2072,7 +2060,7 @@
                             <li class="text-color-dark"><i class="fas fa-phone top-6"></i> <strong>Teléfono:</strong> <a class="text-color-dark text-color-hover-primary text-decoration-none" href="tel:5571592358">55 7159 2358</a></li>
                             <li class="text-color-dark"><i class="fas fa-envelope top-6"></i> <strong>Correo:</strong> <a class="text-color-dark text-color-hover-primary text-decoration-none" href="mailto:ventas@industrialmaquiladora.com">ventas@industrialmaquiladora.com</a></li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </div>

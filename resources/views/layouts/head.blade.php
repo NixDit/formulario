@@ -20,7 +20,7 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/imaqfavicon.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="img/imaqfavicon.png">
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -43,6 +43,9 @@
         <link rel="stylesheet" href="{{ asset('css/theme-blog.css?v='.rand()) }}">
         <link rel="stylesheet" href="{{ asset('css/theme-shop.css?v='.rand()) }}">
 
+        <!-- WhatsApp -->
+        <link rel="stylesheet" href="{{ asset('css/whatsapp.css?v='.rand()) }}">
+
         <!-- Demo CSS -->
         <link rel="stylesheet" href="{{ asset('css/demos/demo-landing.css?v='.rand()) }}">
 
@@ -57,6 +60,16 @@
 
         {{-- Fontwesome --}}
         <script src="https://kit.fontawesome.com/d97648113a.js" crossorigin="anonymous"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JR2QDDMXM"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9JR2QDDMXM');
+        </script>
 
     </head>
     <body data-plugin-page-transition>
