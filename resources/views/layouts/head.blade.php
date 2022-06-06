@@ -8,19 +8,19 @@
 
         <title>@yield('title')</title>
 
-        <meta name="description" content="Una empresa orgullosamente mexicana. Somos líderes en la Industria Cosmética. Crea tu propia marca de cosméticos. Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles. Fabricante de cosméticos">
+        <meta name="description" content="Somos líderes en la Industria Cosmética. Crea tu propia marca de cosméticos. Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles. Fabricante de cosméticos">
         <meta name="keywords" content="IMAQ Industrial Maquiladora, Marca de cosméticos, Tu propia marca de cosméticos, Crea y Personaliza tu marca de cosméticos, Industria cosmética en México, Marca de maquillaje, labiales, skincare, rubor, Fabricante de cosmeticos" />
         <meta name="author" content="industrialmaquiladora.com">
         <meta property="og:locale" content="es_MX" />
         <meta property="og:type" content="websites" />
         <meta property="og:title" content="IMAQ | Industrial Maquiladora - Fabricante de Cosméticos" />
         <meta property="og:url" content="https://industrialmaquiladora.com/" />
-		<meta property="og:site_name" content="IMAQ | Inudstrial Maquiladora, Industria Cosmética, Maquiladora de cosméticos, Maquiladora de maquillajes" />
+		<meta property="og:site_name" content="IMAQ | Industrial Maquiladora, Industria Cosmética, Maquiladora de cosméticos, Maquiladora de maquillajes" />
 		<link rel="canonical" href="https://industrialmaquiladora.com/" />
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/imaqfavicon.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="img/imaqfavicon.png">
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -43,6 +43,9 @@
         <link rel="stylesheet" href="{{ asset('css/theme-blog.css?v='.rand()) }}">
         <link rel="stylesheet" href="{{ asset('css/theme-shop.css?v='.rand()) }}">
 
+        <!-- WhatsApp -->
+        <link rel="stylesheet" href="{{ asset('css/whatsapp.css?v='.rand()) }}">
+
         <!-- Demo CSS -->
         <link rel="stylesheet" href="{{ asset('css/demos/demo-landing.css?v='.rand()) }}">
 
@@ -54,6 +57,19 @@
 
         <!-- Head Libs -->
         <script src="{{ asset('vendor/modernizr/modernizr.min.js?v='.rand()) }}"></script>
+
+        {{-- Fontwesome --}}
+        <script src="https://kit.fontawesome.com/d97648113a.js" crossorigin="anonymous"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JR2QDDMXM"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9JR2QDDMXM');
+        </script>
 
     </head>
     <body data-plugin-page-transition>

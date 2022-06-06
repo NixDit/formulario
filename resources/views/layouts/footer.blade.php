@@ -1,5 +1,9 @@
 </div>
 <footer id="footer" class="bg-color-dark-scale-2 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
+
+    {{-- <a href="whatsapp" href="https://api.whatsapp.com/send?phone=5620949468">
+        <img src="img/landing/logo-imaq_2.png" alt="WhatsApp">
+    </a> --}}
     <div class="container text-center my-3 py-5">
         <a href="index.html">
             <img src="img/lazy.png" data-src="img/landing/logo-imaq_2.png" width="102" height="45" class="appear-animation lazyload mb-4" alt="Porto" data-appear-animation="fadeIn" data-appear-animation-delay="300">
