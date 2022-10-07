@@ -2953,6 +2953,18 @@
         </div>
     </section> --}}
 
+    
+    <section id="support" class="section section-angled bg-light border-0 m-0 position-relative pt-0">
+        <div class="container pb-5 mb-5">
+            <div class="row align-items-center mb-5">
+                <div id="mapa" style="height: 400px;" >
+                </div>
+            </div>
+        </div>
+        {{-- <div class="section-angled-layer-bottom section-angled-layer-increase-angle" style="padding: 4rem 0; background: #222529;"></div> --}}
+    </section>
+
+
     <section class="section bg-color-dark-scale-2 border-0 m-0 py-4">
         <div class="container">
             <div class="row">

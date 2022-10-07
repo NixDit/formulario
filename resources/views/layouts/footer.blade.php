@@ -4,7 +4,7 @@
     {{-- <a href="whatsapp" href="https://api.whatsapp.com/send?phone=5620949468">
         <img src="img/landing/logo-imaq_2.png" alt="WhatsApp">
     </a> --}}
-    <div class="container text-center my-3 py-5">
+    <div class="container text-center my-3 py-2">
         <a href="index.html">
             <img src="img/lazy.png" data-src="img/landing/logo-imaq_2.png" width="102" height="45" class="appear-animation lazyload mb-4" alt="Porto" data-appear-animation="fadeIn" data-appear-animation-delay="300">
         </a>
@@ -18,7 +18,7 @@
             <p class="text-color-white mb-0 text-2">contacto@industrialmaquiladora.com <br>55 88 48 46 39</p>
         </ul> --}}
     </div>
-    <div class="copyright bg-dark py-4">
+    <div class="copyright bg-dark py-3">
         <div class="container text-center py-2">
             <p class="text-color-white mb-0 text-2">Copyright 2022 - IMAQ Industrial Maquiladora OSC S.A de C.V. - Todos los derechos reservados</p>
         </div>
