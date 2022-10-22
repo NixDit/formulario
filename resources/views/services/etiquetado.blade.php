@@ -52,7 +52,7 @@
         </div>
         <div class="row pb-2">
             <div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
-                <a href="demo-auto-services-services-detail.html" class="text-decoration-none">
+                <a href="" class="text-decoration-none">
                     <div class="custom-icon-box-style-1 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="250" data-plugin-options="{'accY': -200}" style="animation-delay: 250ms;">
                         <div class="custom-icon-style-1 mb-4">
                             <div class="animated-icon animated fadeIn svg-fill-color-primary"><!--?xml version="1.0" encoding="utf-8"?-->
@@ -70,7 +70,7 @@
                 </a>
             </div>
             <div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
-                <a href="demo-auto-services-services-detail.html" class="text-decoration-none">
+                <a href="" class="text-decoration-none">
                     <div class="custom-icon-box-style-1 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'accY': -200}" style="animation-delay: 500ms;">
                         <div class="custom-icon-style-1 mb-4">
                             <div class="animated-icon animated fadeIn svg-fill-color-primary"><!--?xml version="1.0" encoding="utf-8"?-->
@@ -86,7 +86,7 @@
                 </a>
             </div>
             <div class="col-lg-4 text-center px-lg-5">
-                <a href="demo-auto-services-services-detail.html" class="text-decoration-none">
+                <a href="" class="text-decoration-none">
                     <div class="custom-icon-box-style-1 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="750" data-plugin-options="{'accY': -200}" style="animation-delay: 750ms;">
                         <div class="custom-icon-style-1 mb-4">
                             <div class="animated-icon animated fadeIn svg-fill-color-primary"><!--?xml version="1.0" encoding="utf-8"?-->

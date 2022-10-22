@@ -1969,7 +1969,7 @@
                         <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
                         <p class="mb-0"><b class="text-color-dark">Decorado -</b> Contamos con distintos sistemas de impresión: Hot Stamping, Serigrafía, Tampografía.</p>
                     </div>
-                    <div class="d-flex align-items-center pb-4 mb-4">
+                    <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-4 mb-4">
                         <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
                         <p class="mb-0"><b class="text-color-dark">Flexografía -</b> Fabricamos nuestras propias etiquetas que complementan el producto (Hasta 3,4 y 8 colores).</p>
                     </div>
@@ -2953,7 +2953,7 @@
         </div>
     </section> --}}
 
-    
+
     <section id="support" class="section section-angled bg-light border-0 m-0 position-relative pt-0">
         <div class="container pb-5 mb-5">
             <div class="row align-items-center mb-5">
