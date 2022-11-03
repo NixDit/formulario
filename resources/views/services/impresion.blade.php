@@ -6,7 +6,7 @@
         <div class="row align-items-center justify-content-center pb-4 mb-5">
             <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
                 <div class="overflow-hidden">
-                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Laboratorio de desarrollo</h2>
+                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Impresión</h2>
                 </div>
                 <div class="custom-divider divider divider-primary divider-small my-3">
                     <hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700" style="animation-delay: 700ms;">
