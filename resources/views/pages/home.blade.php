@@ -166,7 +166,7 @@
                 <div class="col-lg-11">
                     <div class="row justify-content-center">
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Speed Performance" src="img/lazy.png" data-src="img/landing/bases1.jpg">
+                            <img class="lazyload img-fluid" alt="Speed Performance" src="img/lazy.png" data-src="img/landing/bases1x.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">1</span>
                                 <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Experiencia</small>por más de 60 años</h4>
@@ -174,7 +174,7 @@
                             <p class="text-color-primary pe-5 custom-text-color-1">Durante más de 60 años sabemos por experiencia lo que significa crear y lanzar marcas en el sector de la cosmética</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Solid and tested base" src="img/lazy.png" data-src="img/landing/bases2.jpg">
+                            <img class="lazyload img-fluid" alt="Solid and tested base" src="img/lazy.png" data-src="img/landing/base2.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">2</span>
                                 <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Contamos</small>con maquila</h4>
@@ -384,7 +384,6 @@
                 </div>
         </div>
     </section>
-
 
 
     <section id="demos" class="section section-no-border section-light position-relative z-index-3 pt-0 m-0">
