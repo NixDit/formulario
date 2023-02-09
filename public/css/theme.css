@@ -2328,20 +2328,23 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown li a {
-		border-bottom-color: #2a2a2a;
+		border-bottom-color: #f4f2f2;
 	}
 
 	#header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu {
-		background: #1e1e1e;
+		/* background: #1e1e1e; */
+		background: #ffffff;
 		margin-top: 0;
 	}
 
 	#header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu > li > a {
-		color: #adadad;
+		/* color: #adadad; */
+		color: #224a9a;
 	}
 
 	#header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu > li:hover > a, #header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu > li:focus > a, #header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu > li:active > a, #header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu > li.active > a, #header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu > li.open > a, #header .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu > li.accessibility-open > a {
-		background: #282828;
+		/* background: #282828; */
+		background: #224a9a;
 		color: #FFF;
 	}
 
@@ -7611,8 +7614,8 @@ a.text-light:focus, a.text-light:hover {
 	min-width: 0 !important;
 }
 
-/* 
- * Order (Extending to 10) 
+/*
+ * Order (Extending to 10)
  * Bootstrap 5 has until 5 order class
 */
 .order-6 {

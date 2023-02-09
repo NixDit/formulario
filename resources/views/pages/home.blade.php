@@ -2,7 +2,7 @@
 @section('title','IMAQ | Industrial Maquiladora OSC - Fabricante de cosméticos')
 @section('content')
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=5620949468&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20IMAQ%20." class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=5620949468&text=Hola!%20Me%20contacto%20desde%20el%20sitio%20web%20de%20IMAQ.%20Necesito%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
     </a>
 <div role="main" class="main">
@@ -26,7 +26,7 @@
                     <div id="popup-content-1" class="dialog dialog-lg zoom-anim-dialog rounded p-3 mfp-hide mfp-close-out">
                         <div class="ratio ratio-4x3">
                             <video id="popupPresentation" class="float-start" width="100%" height="100%" muted playsinline loop preload="metadata" poster="video/presentation.jpg">
-                                    <source src="video/presentation.webm" type="video/webm">
+                                    <source src="img/video/baul.mp4" type="video/mp4">
                                     <source src="img/video/baul.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -35,7 +35,7 @@
                 <div class="col-lg-6 offset-lg-1 mb-5">
                     <div class="position-relative border-width-10 border-color-light clearfix border border-radius" data-remove-min-height style="min-height: 446px;">
                         <video id="presentation" class="float-start" width="100%" height="100%" muted playsinline loop preload="metadata" poster="video/presentation.jpg" data-auto-play="true">
-                                <source src="video/presentation.webm" type="video/webm">
+                                <source src="img/video/baul.mp4" type="video/mp4">
                                 <source src="img/video/baul.mp4" type="video/mp4">
                         </video>
                         <a href="#" class="position-absolute top-50pct left-50pct transform3dxy-n50 bg-light rounded-circle d-flex align-items-center justify-content-center text-decoration-none bg-color-hover-primary text-color-hover-light play-button-lg pulseAnim pulseAnimAnimated" data-trigger-play-video="#presentation" data-trigger-play-video-remove="yes">
@@ -87,16 +87,16 @@
             </div>
             <div class="intro row align-items-center justify-content-center justify-content-md-start">
                 <div class="col-3 pe-0 ps-3 position-relative z-index-2">
-                    <img src="img/lazy.png" data-src="img/landing/labial.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded d-none d-md-block appear-animation" alt="Screenshot 2" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+                    <img src="img/lazy.png" data-src="img/landing/diseno1-01.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded d-none d-md-block appear-animation" alt="Screenshot 2" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
                     <div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="900" style="bottom: -60px; right: -90px;">
                         <span class="arrow hlt" style="margin-right: -70px;"></span>
                         <strong class="text-color-dark mb-4 pb-3">Diseños</strong>
                     </div>
                 </div>
                 <div class="col-11 col-md-9 position-relative ps-0 pe-5 pb-5 pb-md-0 mb-5 mb-md-0">
-                    <div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pe-5" data-appear-animation="fadeInUp" data-appear-animation-delay="400"><img src="img/lazy.png" data-src="img/landing/intro_2x.jpg" class="lazyload img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Screenshot 1" style="left: -110px;"></div>
+                    <div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pe-5" data-appear-animation="fadeInUp" data-appear-animation-delay="400"><img src="img/lazy.png" data-src="img/landing/muestra.jpg" class="lazyload img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Screenshot 1" style="left: -110px;"></div>
                     <div class="intro3 z-index-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="800" style="top: 20%; right: 4%;">
-                        <img src="img/lazy.png" data-src="img/landing/intro_3x.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded" alt="Screenshot 3">
+                        <img src="img/lazy.png" data-src="img/landing/demostracion.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded" alt="Screenshot 3">
                         <div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" style="bottom: -135px; right: -20px;">
                             <strong class="text-color-dark mb-3">Demostraciones!</strong>
                             <span class="arrow hru"></span>

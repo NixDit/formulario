@@ -13,6 +13,8 @@
     <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js?v='.rand()) }}"></script>
     <script src="{{ asset('vendor/vide/jquery.vide.min.js?v='.rand()) }}"></script>
     <script src="{{ asset('vendor/vivus/vivus.min.js?v='.rand()) }}"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
 
     <!-- Theme Base, Components and Settings -->
     <script src="{{ asset('js/theme.js?v='.rand()) }}"></script>
@@ -40,5 +42,19 @@
         crossorigin="">
     </script>
 
+    {{-- SCRIPTS EXTRAS --}}
+    @stack('scripts')
+    {{-- END SCRIPTS EXTAS --}}
+    @if (Session::has('alert'))
+    <script>
+        $(document).ready(function(){
+            Swal.fire({
+                title : '',
+                icon  : "{{ Session::get('alert.type') }}",
+                html  : "{!! Session::get('alert.message') !!}"
+            });
+        });
+    </script>
+    @endif
     </body>
 </html>

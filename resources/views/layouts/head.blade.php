@@ -62,6 +62,9 @@
         {{-- Fontwesome --}}
         <script src="https://kit.fontawesome.com/d97648113a.js" crossorigin="anonymous"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css">
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JR2QDDMXM"></script>
         <script>

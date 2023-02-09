@@ -16,43 +16,64 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="/">
-                                                Inicio
+                                            <a class="dropdown-item font-weight-bold" href="/">
+                                                INICIO
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="{{ route('viewdesarrollo') }}">
-                                                Desarrollo
+                                            <a class="dropdown-item dropdown-toggle font-weight-bold" href="#">
+                                                SERVICIOS
                                             </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('viewdesarrollo') }}">DESARROLLO</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('viewdiseño') }}">DISEÑOS</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="javascript:;">EMPAQUE</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('viewenvase') }}">ENVASE</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('viewimpresion') }}">IMPRESIÓN</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('viewetiquetado') }}">ETIQUETADO</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('viewacabado') }}">ACABADO</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="{{ route('viewdiseño') }}">
-                                                Diseños
+                                            <a class="dropdown-item dropdown-toggle font-weight-bold" href="#">
+                                                LINEAS DE PRODUCTOS
                                             </a>
-                                        </li>
-                                        {{-- <li class="dropdown">
-                                            <a class="dropdown-item" href="/">
-                                                Empaque
-                                            </a>
-                                        </li> --}}
-                                        <li class="dropdown">
-                                            <a class="dropdown-item" href="{{ route('viewenvase') }}">
-                                                Envase
-                                            </a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item" href="{{ route('viewimpresion') }}">
-                                                Impresión
-                                            </a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item" href="{{ route('viewetiquetado') }}">
-                                                Etiquetado
-                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    {{-- <a class="dropdown-item font-weight-bold" href="{{ route('belleza.index') }}">BELLEZA Y CUIDADO PERSONAL<span class="tip tip-dark">Destacado</span></a> --}}
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('belleza.index') }}">BELLEZA Y CUIDADO PERSONAL</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('cuidadop.index') }}">CUIDADO PERSONAL</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('bienestar.index') }}">BIENESTAR</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('sanitizante.index') }}">SANITIZANTE</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('industrial.index') }}">LÍNEA INDUSTRIAL</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="{{ route('viewacabado') }}">
-                                                Acabado
+                                            <a class="dropdown-item font-weight-bold" href="{{ route('mimarca.index') }}">
+                                                CREA TU MARCA DE COSMÉTICOS
                                             </a>
                                         </li>
                                         {{-- <li class="dropdown">
