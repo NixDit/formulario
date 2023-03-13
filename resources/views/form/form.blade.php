@@ -310,7 +310,7 @@
                         <div class="d-flex justify-content-end">
                             <button type="reset" data-kt-contacts-type="cancel" class="btn btn-light me-3">Borrar todo</button>
                             <button type="submit" data-kt-contacts-type="submit" class="btn btn-primary">
-                                <span class="indicator-label">Guardar producto</span>
+                                <span class="indicator-label">Enviar</span>
                             </button>
                         </div>
                     </form>
