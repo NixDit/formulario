@@ -5,7 +5,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="/"><img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="img/landing/logoinicioimaq3.png"></a>
+                            <a href="/"><img alt="Logotipo Imaq Industrial Maquiladora" title="Logotipo Imaq Industrial Maquiladora" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="img/landing/logoinicioimaq3.png"></a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                                                     <a class="dropdown-item font-weight-bold" href="{{ route('viewdiseño') }}">DISEÑOS</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item font-weight-bold" href="javascript:;">EMPAQUE</a>
+                                                    <a class="dropdown-item font-weight-bold" href="{{ route('viewempaque') }}">EMPAQUE</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item font-weight-bold" href="{{ route('viewenvase') }}">ENVASE</a>
@@ -57,9 +57,9 @@
                                                     {{-- <a class="dropdown-item font-weight-bold" href="{{ route('belleza.index') }}">BELLEZA Y CUIDADO PERSONAL<span class="tip tip-dark">Destacado</span></a> --}}
                                                     <a class="dropdown-item font-weight-bold" href="{{ route('belleza.index') }}">BELLEZA Y CUIDADO PERSONAL</a>
                                                 </li>
-                                                <li>
+                                                {{-- <li>
                                                     <a class="dropdown-item font-weight-bold" href="{{ route('cuidadop.index') }}">CUIDADO PERSONAL</a>
-                                                </li>
+                                                </li> --}}
                                                 <li>
                                                     <a class="dropdown-item font-weight-bold" href="{{ route('bienestar.index') }}">BIENESTAR</a>
                                                 </li>
@@ -74,6 +74,11 @@
                                         <li class="dropdown">
                                             <a class="dropdown-item font-weight-bold" href="{{ route('mimarca.index') }}">
                                                 CREA TU MARCA DE COSMÉTICOS
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item font-weight-bold" href="{{ route('viewblog') }}">
+                                                BLOG
                                             </a>
                                         </li>
                                         {{-- <li class="dropdown">

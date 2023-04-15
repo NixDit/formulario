@@ -63,7 +63,7 @@
         <div class="container pb-5" style="min-height: 1000px;">
             <div class="row mb-5 pb-lg-3 counters">
                 <div class="col-lg-10 text-center offset-lg-1">
-                    <img xsrc="img/lazy.png" data-src="img/landing/logomarcaimaq.png" class="lazyload ximg-fluid xborder xborder-width-10 xborder-color-light xbox-shadow-3 xrounded" xalt="Screenshot 3">
+                    <img xsrc="img/lazy.png" data-src="img/landing/logomarcaimaq.png" class="lazyload ximg-fluid xborder xborder-width-10 xborder-color-light xbox-shadow-3 xrounded" alt="Logotipo de Imaq Industrial Maquiladora" title="Logotipo de Imaq Industrial maquiladora">
                     <h2 class="font-weight-bold text-9 mb-0">IMAQ<br>Industrial Maquiladora</h2>
                     <p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4">Manufacturamos <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">productos de gran calidad</span></p>
                     <p class="text-1rem text-color-dark negative-ls-05 pt-3 pb-4 mb-5">Somos una empresa orgullosamente mexicana con más de 60 años de experiencia en el ramo cosmético. Nuestra misión es fabricar cosméticos ofreciendo un servicio completo e inmediato con las mas altas estándares de calidad.</p>
@@ -87,16 +87,16 @@
             </div>
             <div class="intro row align-items-center justify-content-center justify-content-md-start">
                 <div class="col-3 pe-0 ps-3 position-relative z-index-2">
-                    <img src="img/lazy.png" data-src="img/landing/diseno1-01.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded d-none d-md-block appear-animation" alt="Screenshot 2" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+                    <img src="img/lazy.png" data-src="img/landing/diseno1-01.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded d-none d-md-block appear-animation" alt="Diseños de como crear una marca de cosmeticos" title="Diseño de como crear una marca de cosmeticos con IMAQ" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
                     <div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="900" style="bottom: -60px; right: -90px;">
                         <span class="arrow hlt" style="margin-right: -70px;"></span>
                         <strong class="text-color-dark mb-4 pb-3">Diseños</strong>
                     </div>
                 </div>
                 <div class="col-11 col-md-9 position-relative ps-0 pe-5 pb-5 pb-md-0 mb-5 mb-md-0">
-                    <div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pe-5" data-appear-animation="fadeInUp" data-appear-animation-delay="400"><img src="img/lazy.png" data-src="img/landing/muestra.jpg" class="lazyload img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Screenshot 1" style="left: -110px;"></div>
+                    <div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pe-5" data-appear-animation="fadeInUp" data-appear-animation-delay="400"><img src="img/lazy.png" data-src="img/landing/muestra.jpg" class="lazyload img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Crear mi propia marca de cosmeticos hidrobase" title="Hidrobase crear una marca" style="left: -110px;"></div>
                     <div class="intro3 z-index-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="800" style="top: 20%; right: 4%;">
-                        <img src="img/lazy.png" data-src="img/landing/demostracion.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded" alt="Screenshot 3">
+                        <img src="img/lazy.png" data-src="img/landing/demostracion.jpg" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded" alt="Mi propia marca de cosmeticos" title="Crear mi propia marca de cosmeticos">
                         <div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" style="bottom: -135px; right: -20px;">
                             <strong class="text-color-dark mb-3">Demostraciones!</strong>
                             <span class="arrow hru"></span>
@@ -135,7 +135,7 @@
                 </div>
             </div>
             <div class="image-wrapper position-relative z-index-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750" style="height: 0; padding-bottom: 16%;">
-                <img src="img/lazy.png" data-src="img/landing/tumarca.jpg" class="lazyload img-fluid" alt="The Most Customizable Template">
+                <img src="img/lazy.png" data-src="img/landing/tumarca.jpg" class="lazyload img-fluid" alt="Muestra de productos para crear tu propia marca de cosmeticos en Mexico" title="Productos para crear tu propia marca de cosmeticos">
             </div>
         </div>
     </section>
@@ -148,7 +148,7 @@
             <div class="row align-items-center pt-md-5 mt-5">
                 <div class="col-lg-6 offset-lg-1 position-relative mb-5">
                     <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="500">
-                        <img src="img/lazy.png" data-src="img/landing/porto_dots.png" width="154" height="146" class="lazyload position-absolute top-auto" alt="6 reasons" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 3, 'transition': true}" style="bottom: 184px; left: 70px;">
+                        <img src="img/lazy.png" data-src="img/landing/porto_dots.png" width="154" height="146" class="lazyload position-absolute top-auto" alt="6 razones para crear tu marca con Imaq Industrial Maquiladora" title="Razones para crear tu marca con Imaq Industrial Maquiladora" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 3, 'transition': true}" style="bottom: 184px; left: 70px;">
                     </div>
                     <div class="text-reasons">
                         <label class="text-color-secondary appear-animation z-index-1"  data-appear-animation="blurIn" data-appear-animation-delay="250" data-appear-animation-duration="750">6</label>
@@ -166,7 +166,7 @@
                 <div class="col-lg-11">
                     <div class="row justify-content-center">
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Speed Performance" src="img/lazy.png" data-src="img/landing/bases1x.jpg">
+                            <img class="lazyload img-fluid" alt="Mujer planificando el trabajo para crear una marca de cosmeticos con Imaq" title="Planificando marca de cosmeticos con Imaq Industrial Maquiladora" src="img/lazy.png" data-src="img/landing/bases1x.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">1</span>
                                 <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Experiencia</small>por más de 60 años</h4>
@@ -174,7 +174,7 @@
                             <p class="text-color-primary pe-5 custom-text-color-1">Durante más de 60 años sabemos por experiencia lo que significa crear y lanzar marcas en el sector de la cosmética</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Solid and tested base" src="img/lazy.png" data-src="img/landing/base2.jpg">
+                            <img class="lazyload img-fluid" alt="Maquila de Industria Cosmetica" title="Maquila de Industria Cosmetica Imaq" src="img/lazy.png" data-src="img/landing/base2.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">2</span>
                                 <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Contamos</small>con maquila</h4>
@@ -182,7 +182,7 @@
                             <p class="text-color-primary pe-5 custom-text-color-1">Contamos con instalaciones propias para hacer pruebas de resultados y control.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Top designs created by usability specialists" src="img/lazy.png" data-src="img/landing/bases3.jpg">
+                            <img class="lazyload img-fluid" alt="Asesor explicando la fabricacion de cosmeticos" title="Asesor explicando la fabricacion de cosmeticos" src="img/lazy.png" data-src="img/landing/bases3.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">3</span>
                                 <h4 class=" text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Asesor</small>asignado para ti</h4>
@@ -190,7 +190,7 @@
                             <p class="text-color-primary pe-5 custom-text-color-1">Contarás con un asesor que te estará atendiendo en todo el proceso de fabricación.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="The best customer experience" src="img/lazy.png" data-src="img/landing/bases4.jpg">
+                            <img class="lazyload img-fluid" alt="Departamento de Diseño Grafico para cosmeticos" title="Departamento de diseño grafico para cosmeticos en México" src="img/lazy.png" data-src="img/landing/bases4.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">4</span>
                                 <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Departamento</small>de diseño</h4>
@@ -198,7 +198,7 @@
                             <p class="text-color-primary pe-5 custom-text-color-1">Contamos con un departamento de diseño gráfico para brindar apoyo y asesoramiento.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Works perfectly with Porto Admin Template" src="img/lazy.png" data-src="img/landing/bases5.jpg">
+                            <img class="lazyload img-fluid" alt="Quimicos en la industria cosmetica" title="Quimicos en la industria cosmetica" src="img/lazy.png" data-src="img/landing/bases5.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">5</span>
                                 <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">Contamos</small>con Químicos</h4>
@@ -206,7 +206,7 @@
                             <p class="text-color-primary pe-5 custom-text-color-1">Nuestros químicos están a disposición para hacer las recomendaciones durante la fabricación de tu producto.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-lg-4 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" data-appear-animation-duration="750">
-                            <img class="lazyload img-fluid" alt="Always keep template updates" src="img/lazy.png" data-src="img/landing/sin-expe.jpg">
+                            <img class="lazyload img-fluid" alt="Productos cosmeticos no testeado en animales" title="Producotos cosmeticos no testeados en animales" src="img/lazy.png" data-src="img/landing/sin-expe.jpg">
                             <div class="d-flex align-items-center mb-2">
                                 <span class="text-color-secondary font-weight-extra-bold text-12 me-2 line-height-1">6</span>
                                 <h4 class="text-color-dark d-flex flex-column font-weight-bold text-5 mb-0"><small class="font-weight-semibold positive-ls-2 line-height-1">No testeo</small>en animales</h4>
@@ -1760,7 +1760,7 @@
             <div class="row align-items-center mt-4 pt-2">
                 <div class="col-lg-6 pe-lg-5 position-relative text-center mb-5 mb-lg-0">
                     {{-- <img alt="Porto Headers" src="img/lazy.png" data-src="img/landing/porto_headers.png" class="img-fluid lazyload appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" /> --}}
-                    <img alt="Porto Headers" src="img/lazy.png" data-src="img/landing/Mockupx.jpg" class="img-fluid lazyload appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" />
+                    <img alt="Crear mi propia marca personalizada" title="Crear mi propia marca personalizada" src="img/lazy.png" data-src="img/landing/Mockupx.jpg" class="img-fluid lazyload appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" />
                 </div>
                 <div class="col-lg-5 text-center px-lg-0">
                     {{-- <h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">ADVANCED USABILITY-FOCUSED </h5> --}}
@@ -1953,7 +1953,7 @@
         </div>
     </section> --}}
 
-    <section id="support" class="section section-angled bg-light border-0 m-0 position-relative pt-0">
+    <section class="section section-angled bg-light border-0 m-0 position-relative pt-0">
         <div class="container pb-5 mb-5">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6 pe-xl-5 mb-5 mb-lg-0">
@@ -1982,9 +1982,9 @@
                         <img class="img-fluid lazyload" src="img/lazy.png" data-src="img/landing/porto_dots2.png" alt="" style="position: absolute; bottom: -2%; left: -43%; transform: rotate(90deg)">
                     </div>
                     {{-- <img alt="Porto Support" src="img/lazy.png" data-src="img/landing/support_login.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="200" style="width: 590px; max-width: none;"> --}}
-                    <img alt="Porto Support" src="img/lazy.png" data-src="img/landing/servicio2.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="200" style="width: 590px; max-width: none;">
+                    <img alt="Fabricacion de productos cosmeticos" title="Fabricacion de productos cosmeticos" src="img/lazy.png" data-src="img/landing/servicio2.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="200" style="width: 590px; max-width: none;">
                     {{-- <img alt="Porto Documentation" src="img/lazy.png" data-src="img/landing/porto_docs.jpg" class="img-fluid lazyload rounded box-shadow-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="700" style="left: -100px; bottom: 50px;"> --}}
-                    <img alt="Porto Documentation" src="img/lazy.png" data-src="img/landing/servicio1.jpg" class="img-fluid lazyload rounded box-shadow-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="700" style="left: -100px; bottom: 50px;">
+                    <img alt="Muestra de envase de producto cosmetico en imaq industrial maquiladora" title="Muestra de producto cosmetico" src="img/lazy.png" data-src="img/landing/servicio1.jpg" class="img-fluid lazyload rounded box-shadow-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="700" style="left: -100px; bottom: 50px;">
                 </div>
             </div>
         </div>
@@ -2970,12 +2970,12 @@
                 <div class="col">
                     <ul class="list list-unstyled list-inline d-flex align-items-center justify-content-center flex-column flex-lg-row mb-0">
                         <li class="text-color-white list-inline-item Xcustom-text-color-1 Xcolor-inherit mb-lg-0 text-2 pe-2">Tu propia marca:</li>
-                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-admin-responsive-html5-template/8539472" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">MAQUILLAJES</a></li>
-                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-ecommerce-shop-template/22685562" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">LABIALES</a></li>
-                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-responsive-wordpress-ecommerce-theme/9207399" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">SKICARE</a></li>
-                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">DELINEADORES</a></li>
-                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-ultimate-responsive-shopify-theme/19162959" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">SOMBRAS</a></li>
-                        <li class="list-inline-item mb-lg-0"><a xhref="https://themeforest.net/item/porto-responsive-drupal-7-theme/5219986" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0" target="_blank">PIGMENTOS</a></li>
+                        <li class="list-inline-item mb-lg-0"><a href="{{ route('mimarca.index') }}" title="Mi propia marca de cosméticos" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">MAQUILLAJES</a></li>
+                        <li class="list-inline-item mb-lg-0"><a href="{{ route('mimarca.index') }}" title="Mi propia marca de cosméticos" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">LABIALES</a></li>
+                        <li class="list-inline-item mb-lg-0"><a href="{{ route('mimarca.index') }}" title="Mi propia marca de cosméticos" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">SKICARE</a></li>
+                        <li class="list-inline-item mb-lg-0"><a href="{{ route('mimarca.index') }}" title="Mi propia marca de cosméticos" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">DELINEADORES</a></li>
+                        <li class="list-inline-item mb-lg-0"><a href="{{ route('mimarca.index') }}" title="Mi propia marca de cosméticos" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">SOMBRAS</a></li>
+                        <li class="list-inline-item mb-lg-0"><a href="{{ route('mimarca.index') }}" title="Mi propia marca de cosméticos" class="btn btn-dark btn-modern btn-rounded btn-px-4 py-3 border-0">PIGMENTOS</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,29 +1,19 @@
 @extends('index2')
-@section('title','Impresión - IMAQ | Industrial Maquiladora OSC')
+@section('title','Empaquetado - IMAQ | Industrial Maquiladora OSC')
 @section('content')
 <div role="main" class="main">
     <div class="container my-5 pt-md-4 pt-xl-0">
         <div class="row align-items-center justify-content-center pb-4 mb-5">
             <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
                 <div class="overflow-hidden">
-                    <h1 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Impresión</h1>
+                    <h1 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Empaque</h1>
                 </div>
                 <div class="custom-divider divider divider-primary divider-small my-3">
                     <hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700" style="animation-delay: 700ms;">
                 </div>
-                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450" style="animation-delay: 450ms;">Contamos con distintos sistemas de impresión: Hot Stamping, Serigrafía, Tampografía, entre otros.</p>
-                <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-8 mb-4">
-                    <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
-                    <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"><b class="text-color-dark">Serigrafía: -</b> Esta técnica de impresión se utiliza para imprimir en superficies duras y no porosas, como botellas y tubos de vidrio. La serigrafía utiliza una malla de seda o poliéster para transferir la tinta a la superficie de impresión. Es ideal para imprimir imágenes con alta resolución y detalles finos.</p>
-                </div>
-                <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-8 mb-4">
-                    <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
-                    <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"><b class="text-color-dark">Termograbado o Hot Stamping -</b> Técnica utilizar para acabados en brillo o alto brillo. Los más habituales son el plata brillo y el oro brillo. Se estampa mediante calor para obtener estos textos en oro y plata evitando la oxidación posterior.</p>
-                </div>
-                <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-8 mb-4">
-                    <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
-                    <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"><b class="text-color-dark">Tampografía: -</b> Proceso a utilizar cuando las superficies no son ni planas ni cilíndricas sino irregulares. Se utiliza un tampón para transferir la tinta a la superficie del envase.</p>
-                </div>
+                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450" style="animation-delay: 450ms;">Selección de diseño y materiales del empaque para los productos cosméticos, así como a la logística de empaquetado y envío.</p>
+                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Los productos cosméticos deben ser embalados de manera segura y eficiente para su envío, asegurando que lleguen al cliente final en buen estado. Esto incluye la selección de materiales de embalaje adecuados, la etiquetación correcta y el seguimiento de envío.</p>
+                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 900ms;">La presentación y el diseño del empaque de los productos cosméticos son elementos importantes de la estrategia de marketing de una marca.</p>
                 <div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
                     <a href="tel:5571592358" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950" style="animation-delay: 950ms;">CONTACTAR</a>
                     <div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200" style="animation-delay: 1200ms;">
@@ -40,7 +30,7 @@
             <div class="col-10 col-md-9 col-lg-6 ps-lg-5 pe-5 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1450" data-plugin-options="{'accY': -200}" style="animation-delay: 1450ms;">
                 <div class="position-relative">
                     <div data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" style="top: 0px; transition: transform 1000ms ease-out 0ms; transform: translate3d(0px, 9.07284%, 0px);">
-                        <img src="img/landing/services/impresion.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" alt="Etiquetado IMAQ">
+                        <img src="img/landing/services/empaque.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" alt="Etiquetado IMAQ">
                     </div>
                     {{-- <div class="position-absolute transform3dxy-n50" style="top: 25%; left: 7%;">
                         <div data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.5, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': false}" style="top: 0px; transition: transform 2000ms ease-out 0ms; transform: translate3d(0px, 199.509%, 0px);">

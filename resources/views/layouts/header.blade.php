@@ -111,6 +111,11 @@
                                                 CREA TU MARCA DE COSMÉTICOS
                                             </a>
                                         </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item font-weight-bold" href="{{ route('viewblog') }}">
+                                                BLOG
+                                            </a>
+                                        </li>
                                         {{-- <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 Pages

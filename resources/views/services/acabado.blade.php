@@ -6,14 +6,28 @@
         <div class="row align-items-center justify-content-center pb-4 mb-5">
             <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
                 <div class="overflow-hidden">
-                    <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Acabado</h2>
+                    <h1 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Acabado</h1>
                 </div>
                 <div class="custom-divider divider divider-primary divider-small my-3">
                     <hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700" style="animation-delay: 700ms;">
                 </div>
-                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450" style="animation-delay: 450ms;">Contamos con personas especializadas, con alto conocimiento en el ramo de la industria cosmética haciendo desarrollos para poder cumplir las características que nuestros clientes necesitan.</p>
-                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Tenemos una amplia gama de formulaciones en productos de belleza, ya sean maquillajes, shampoos, labiales, geles o serums para el cuidado de la piel facial y corporal, asi como productos para el cabello.</p>
-                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 900ms;">Si buscas algo especial, nosotros lo desarrollamos, para que logres tener productos con tu propia marca. Constantemente estamos actualizando nuestras formulaciones con las ultimas tendencias del mercado.</p>
+                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450" style="animation-delay: 450ms;">Entre las actividades que se realizan en el área de acabado de cosméticos se encuentran:</p>
+
+                <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-8 mb-4">
+                    <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
+                    <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"><b class="text-color-dark">Inspección de la calidad del producto: -</b> Se realizan pruebas y controles de calidad para asegurar que el producto cumpla con los estándares de calidad establecidos.</p>
+                </div>
+
+                <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-8 mb-4">
+                    <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
+                    <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"><b class="text-color-dark">Pruebas de rendimiento y durabilidad: -</b> Se realizan pruebas para verificar el rendimiento y la durabilidad del producto en diferentes condiciones.</p>
+                </div>
+                <div class="d-flex align-items-center border border-top-0 border-end-0 border-start-0 pb-8 mb-4">
+                    <i class="fa fa-check text-color-primary bg-light rounded-circle box-shadow-4 p-2 me-3"></i>
+                    <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"><b class="text-color-dark">Cumplimiento de normas y regulaciones: -</b> Se asegura que el producto cumpla con las normas y regulaciones establecidas por las autoridades competentes.</p>
+                </div>
+
+                <p class="text-color-dark text-3-5 mb-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 900ms;">En resumen, el área de acabado es un departamento clave, ya que se encarga de garantizar que los productos sean de alta calidad y estén listos para su comercialización en el mercado.</p>
                 <div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
                     <a href="tel:5571592358" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950" style="animation-delay: 950ms;">CONTACTAR</a>
                     <div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200" style="animation-delay: 1200ms;">
@@ -30,7 +44,7 @@
             <div class="col-10 col-md-9 col-lg-6 ps-lg-5 pe-5 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1450" data-plugin-options="{'accY': -200}" style="animation-delay: 1450ms;">
                 <div class="position-relative">
                     <div data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" style="top: 0px; transition: transform 1000ms ease-out 0ms; transform: translate3d(0px, 9.07284%, 0px);">
-                        <img src="img/landing/services/desarrollo.jpg" class="img-fluid" alt="">
+                        <img src="img/landing/services/acabado.jpg" class="img-fluid" alt="">
                     </div>
                     {{-- <div class="position-absolute transform3dxy-n50" style="top: 25%; left: 7%;">
                         <div data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.5, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': false}" style="top: 0px; transition: transform 2000ms ease-out 0ms; transform: translate3d(0px, 199.509%, 0px);">

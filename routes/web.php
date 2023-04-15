@@ -11,6 +11,7 @@ use App\Http\Controllers\Services\DiseñoController;
 use App\Http\Controllers\Services\EnvaseController;
 use App\Http\Controllers\Lines\IndustrialController;
 use App\Http\Controllers\Services\AcabadoController;
+use App\Http\Controllers\Services\EmpaqueController;
 use App\Http\Controllers\Lines\SanitizanteController;
 use App\Http\Controllers\Services\ImpresionController;
 use App\Http\Controllers\Services\DesarrolloController;
@@ -34,6 +35,7 @@ Route::get('/', function () {
 Route::get('/desarrollo',[DesarrolloController::class,'index'])->name('viewdesarrollo');
 Route::get('/diseño',[DiseñoController::class,'index'])->name('viewdiseño');
 Route::get('/envase',[EnvaseController::class,'index'])->name('viewenvase');
+Route::get('/empaque',[EmpaqueController::class,'index'])->name('viewempaque');
 Route::get('/impresion',[ImpresionController::class,'index'])->name('viewimpresion');
 Route::get('/etiquetado',[EtiquetadoController::class,'index'])->name('viewetiquetado');
 Route::get('/acabado',[AcabadoController::class,'index'])->name('viewacabado');

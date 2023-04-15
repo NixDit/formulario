@@ -6,7 +6,7 @@
             <div class="row align-items-center justify-content-center pb-4 mb-5">
                 <div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
                     <div class="overflow-hidden">
-                        <h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Crear tu propia marca de cosméticos</h2>
+                        <h1 class="font-weight-semi-bold text-color-dark line-height-1 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Crear tu propia marca de cosméticos</h1>
                     </div>
                     <div class="custom-divider divider divider-primary divider-small my-3">
                         <hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700" style="animation-delay: 700ms;">
@@ -31,7 +31,7 @@
                     <div class="position-relative">
                         <div data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}" style="top: 0px; transition: transform 1000ms ease-out 0ms; transform: translate3d(0px, 9.07284%, 0px);">
                             {{-- <img src="img/landing/services/desarrollo.jpg" class="img-fluid" alt=""> --}}
-                            <img src="img/landing/mimarca.jpg" class="img-fluid" alt="">
+                            <img src="img/landing/mimarca.jpg" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload ms-5 appear-animation" data-appear-animation="fadeInUp" alt="Mi propia marca IMAQ">
                         </div>
                         {{-- <div class="position-absolute transform3dxy-n50" style="top: 25%; left: 7%;">
                             <div data-plugin-float-element="" data-plugin-options="{'startPos': 'top', 'speed': 0.5, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': false}" style="top: 0px; transition: transform 2000ms ease-out 0ms; transform: translate3d(0px, 199.509%, 0px);">
