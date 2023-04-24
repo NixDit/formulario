@@ -27,7 +27,11 @@ class BlogController extends Controller
      */
     public function index()
     {
-        //return view('administrador.ecommerce.catalog.products.create-product')->with( 'product', new Product );
         return view('blog.index');
+    }
+
+    public function blog1()
+    {
+        return view('blog.pages.blog1');
     }
 }

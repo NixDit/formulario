@@ -42,6 +42,7 @@ Route::get('/acabado',[AcabadoController::class,'index'])->name('viewacabado');
 Route::post('/contact-us', [HomeController::class, 'contact'])->name('contact-us');
 
 Route::get('/blog',[BlogController::class,'index'])->name('viewblog');
+Route::get('/blog/industria-cosmetica-en-mexico',[BlogController::class,'blog1'])->name('blogone');
 
 Route::get('/crea-tu-marca-de-cosméticos',[FormController::class,'index'])->name('mimarca.index');
 Route::post('/storemimarca',[FormController::class,'store'])->middleware(['auth'])->name('mimarca.store');

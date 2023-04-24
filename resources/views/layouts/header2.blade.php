@@ -5,7 +5,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="/"><img alt="Logotipo Imaq Industrial Maquiladora" title="Logotipo Imaq Industrial Maquiladora" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="img/landing/logoinicioimaq3.png"></a>
+                            <a href="/"><img alt="Logotipo Imaq Industrial Maquiladora" title="Logotipo Imaq Industrial Maquiladora" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="{{ asset('img/landing/logoinicioimaq3.png') }}"></a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item font-weight-bold" href="{{ route('mimarca.index') }}">
-                                                CREA TU MARCA DE COSMÉTICOS
+                                                CREA Y REGISTRA TU MARCA DE COSMÉTICOS
                                             </a>
                                         </li>
                                         <li class="dropdown">
@@ -289,7 +289,7 @@
                                 </nav>
                             </div>
                             <a class="btn btn-success btn-rounded font-weight-semibold px-4 ms-3" href="https://wa.me/message/V64WQZ2OHK4LP1" target="_blank">WhatsApp</a>
-                            <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav"><i class="fa fa-bars"></i></button>
+                            <button class="btn header-btn-collapse-nav" name="Selecionar menu" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav"><i class="fa fa-bars"></i></button>
                         </div>
                     </div>
                 </div>

@@ -27,74 +27,64 @@
                         <div class="col-md-4">
                             <article class="post post-medium border-0 pb-0 mb-5">
                                 <div class="post-image">
-                                    <a href="blog-post.html">
-                                        <img src="img/blog/medium/blog-1.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="">
+                                    <a href="{{ route('blogone') }}">
+                                        <img src="{{ asset('img/blog/inicio/imaq-industrial-maquiladora-industria-cosmetica.jpg') }}" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload xms-5 appear-animation" data-appear-animation="fadeInUp" alt="Imaq Industrial Maquiladora" title="Imaq Industrial Maquiladora Industria Cosmetica">
                                     </a>
                                 </div>
-
-                                <div class="post-content">
-
-                                    <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Industria Cosmética en México - IMAQ Industrial Maquiladora</a></h2>
-                                    <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                <div class="post-content appear-animation animated fadeInUpShorter appear-animation-visible" style="animation-delay: 650ms;">
+                                    <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a style="text-decoration:none" href="{{ route('blogone') }}">Industria Cosmética en México - IMAQ Industrial Maquiladora</a></h2>
+                                    <p class="text-color-dark">La industria cosmética en México también está en constante evolución en cuanto a las tendencias y demandas del mercado. </p>
 
                                     <div class="post-meta">
-                                        <span><i class="far fa-user"></i> Por <a href="#">IMAQ</a> </span>
-                                        <span><i class="far fa-folder"></i> <a href="#">Nuevo</a>, <a href="#">Diseño</a> </span>
-                                        {{-- <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span> --}}
-                                        <span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Leer más</a></span>
+                                        <span><i class="far fa-user"></i> Por <a href="javascript:;">IMAQ</a> </span>
+                                        <span><i class="far fa-folder"></i> <a href="javascript:;">Nuevo</a></span>
+                                        <span class="d-block mt-2"><a href="{{ route('blogone') }}" class="btn btn-xs btn-dark text-1 text-uppercase">Leer más</a></span>
                                     </div>
-
                                 </div>
                             </article>
                         </div>
-
                         <div class="col-md-4">
                             <article class="post post-medium border-0 pb-0 mb-5">
                                 <div class="post-image">
-                                    <a href="blog-post.html">
-                                        <img src="img/blog/medium/blog-2.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="">
+                                    <a href="{{ route('blogone') }}">
+                                        <img src="{{ asset('img/blog/inicio/imaq-industrial-maquiladora-industria-cosmetica.jpg') }}" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload xms-5 appear-animation" data-appear-animation="fadeInUp" alt="Imaq Industrial Maquiladora" title="Imaq Industrial Maquiladora Industria Cosmetica">
                                     </a>
                                 </div>
-
-                                <div class="post-content">
-
-                                    <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Manufactura de Cosméticos - IMAQ Industrial Maquiladora</a></h2>
-                                    <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                <div class="post-content appear-animation animated fadeInUpShorter appear-animation-visible" style="animation-delay: 650ms;">
+                                    <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a style="text-decoration:none" href="{{ route('blogone') }}">Industria Cosmética en México - IMAQ Industrial Maquiladora</a></h2>
+                                    <p class="text-color-dark">La industria cosmética en México también está en constante evolución en cuanto a las tendencias y demandas del mercado. </p>
 
                                     <div class="post-meta">
-                                        <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
-                                        <span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-                                        <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-                                        <span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
+                                        <span><i class="far fa-user"></i> Por <a href="javascript:;">IMAQ</a> </span>
+                                        <span><i class="far fa-folder"></i> <a href="javascript:;">Nuevo</a></span>
+                                        <span class="d-block mt-2"><a href="{{ route('blogone') }}" class="btn btn-xs btn-dark text-1 text-uppercase">Leer más</a></span>
                                     </div>
-
                                 </div>
                             </article>
                         </div>
-
                         <div class="col-md-4">
                             <article class="post post-medium border-0 pb-0 mb-5">
                                 <div class="post-image">
-                                    <a href="blog-post.html">
-                                        <img src="img/blog/medium/blog-3.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="">
+                                    <a href="{{ route('blogone') }}">
+                                        <img src="{{ asset('img/blog/inicio/imaq-industrial-maquiladora-industria-cosmetica.jpg') }}" class="img-fluid border border-width-10 border-color-light rounded box-shadow-3 lazyload xms-5 appear-animation" data-appear-animation="fadeInUp" alt="Imaq Industrial Maquiladora" title="Imaq Industrial Maquiladora Industria Cosmetica">
                                     </a>
                                 </div>
-
-                                <div class="post-content">
-
-                                    <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Fabricación de cosméticos - IMAQ Industrial Maquiladora</a></h2>
-                                    <p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                <div class="post-content appear-animation animated fadeInUpShorter appear-animation-visible" style="animation-delay: 650ms;">
+                                    <h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a style="text-decoration:none" href="{{ route('blogone') }}">Industria Cosmética en México - IMAQ Industrial Maquiladora</a></h2>
+                                    <p class="text-color-dark">La industria cosmética en México también está en constante evolución en cuanto a las tendencias y demandas del mercado. </p>
 
                                     <div class="post-meta">
-                                        <span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
-                                        <span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-                                        <span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-                                        <span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
+                                        <span><i class="far fa-user"></i> Por <a href="javascript:;">IMAQ</a> </span>
+                                        <span><i class="far fa-folder"></i> <a href="javascript:;">Nuevo</a></span>
+                                        <span class="d-block mt-2"><a href="{{ route('blogone') }}" class="btn btn-xs btn-dark text-1 text-uppercase">Leer más</a></span>
                                     </div>
-
                                 </div>
                             </article>
                         </div>
+
+
+
+                        
 
                         {{-- <div class="col-md-4">
                             <article class="post post-medium border-0 pb-0 mb-5">

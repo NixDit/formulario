@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
 
         <!-- Basic -->
@@ -8,8 +8,8 @@
 
         <title>@yield('title')</title>
 
-        <meta name="description" content="Somos líderes en la Industria Cosmética. Crea tu propia marca de cosméticos. Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles. Fabricante de cosméticos">
-        <meta name="keywords" content="IMAQ Industrial Maquiladora, Marca de cosméticos, Tu propia marca de cosméticos, Crea y Personaliza tu marca de cosméticos, Industria cosmética en México, Marca de maquillaje, labiales, skincare, rubor, Fabricante de cosmeticos" />
+        <meta name="description" content="Fabricante de Cosméticos. Crea tu propia marca de cosméticos. Si sueñas con lanzar tu propio negocio y comenzar tu linea de cosméticos o crear tu marca de productos de belleza, en IMAQ trabajamos con una amplia gama de productos de calidad a precios accesibles. Industria Cosmética en México.">
+        <meta name="keywords" content="IMAQ Industrial Maquiladora, Marca de cosméticos, Tu propia marca de cosméticos, Crea y Personaliza tu marca de cosméticos, Industria cosmética en México, Fabricante de cosmeticos" />
         <meta name="author" content="industrialmaquiladora.com">
         <meta property="og:locale" content="es_MX" />
         <meta property="og:type" content="websites" />
@@ -19,8 +19,8 @@
 		<link rel="canonical" href="https://industrialmaquiladora.com/" />
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="img/imaqfavicon.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="img/imaqfavicon.png">
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="favicon.ico">
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">

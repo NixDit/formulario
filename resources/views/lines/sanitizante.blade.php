@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col my-3">
                         <div class="text-center">
-                            <h3 class="mb-0 pb-0">Línea de Sanitizante</h3>
+                            <h1 class="mb-0 pb-0">Línea de Sanitizante</h1>
                             <div class="divider divider-primary divider-small divider-small-center my-3">
                                 <hr class="mt-2">
                             </div>
