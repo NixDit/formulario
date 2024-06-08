@@ -1,47 +1,4 @@
 @charset "UTF-8";
-/*
-Name: 			theme-elements.css
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.0.0
-*/
-/* Accordion */
-.accordion {
-		/* Modern */
-}
-
-.accordion .card {
-	margin-top: 5px;
-}
-
-.accordion .card:first-child {
-	margin-top: 0;
-}
-
-.accordion .card:first-of-type, .accordion .card:not(:first-of-type):not(:last-of-type), .accordion .card:last-of-type {
-	border: 1px solid rgba(0, 0, 0, 0.125);
-	border-radius: .25rem;
-}
-
-.accordion .card:not(:first-of-type) .card-header:first-child {
-	border-radius: .25rem;
-}
-
-.accordion .card-title {
-	font-size: 16px;
-}
-
-.accordion .card-header {
-	padding: 0;
-	border-radius: .25rem;
-	border-bottom: 0;
-	margin: -1px;
-}
-
-.accordion .card-header a {
-	cursor: pointer;
-	display: block;
-	padding: 10px 20px;
-}
 
 .accordion .card-header a:hover, .accordion .card-header a:focus {
 	text-decoration: none;

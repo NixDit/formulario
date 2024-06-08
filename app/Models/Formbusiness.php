@@ -21,6 +21,8 @@ class Formbusiness extends Model
         'message',
         'quantity',
         'hour',
+        'state_id',
+        'form_city'
     ];
 
     protected $hidden = [

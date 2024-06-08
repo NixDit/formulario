@@ -9,6 +9,7 @@ use App\Models\Distribuidor;
 use App\Models\Formbusiness;
 use Illuminate\Http\Request;
 use App\Models\Imaqformlines;
+use App\Models\Imaqformstates;
 use App\Models\Imaqformservices;
 use Illuminate\Validation\Rules;
 use App\Http\Controllers\Controller;
@@ -36,6 +37,7 @@ class FormController extends Controller
         $data               = (object)[];
         $data->service      = Imaqformservices::all()->where('status',1);
         $data->line         = Imaqformlines::all()->where('status',1);
+        $data->state        = Imaqformstates::all()->where('country_id',1);
         return view('form.form', compact('data'));
 
     }
@@ -53,6 +55,8 @@ class FormController extends Controller
             'message'       =>$request->message,
             'quantity'      =>$request->quantity,
             'hour'          =>$request->hour,
+            'state_id'      =>$request->state_id,
+            'form_city'     =>$request->form_city,
         ]);
         // dd($event);
 

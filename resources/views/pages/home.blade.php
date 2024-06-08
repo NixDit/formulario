@@ -745,10 +745,14 @@
     <section id="support" class="section section-angled bg-light border-0 m-0 position-relative pt-0">
         <div class="container pb-5 mb-5">
             <div class="row align-items-center mb-5">
-                <div id="mapa" style="height: 400px;" >
-                </div>
+                {{-- <div id="mapa" style="height: 400px;" >
+                </div> --}}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d303.8453749910719!2d-99.22118570097692!3d19.46575503289024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d203d29983a689%3A0xbfa659fe832443d3!2sIMAQ%20Industrial%20Maquiladora%20OSC%20SA%20de%20CV!5e0!3m2!1ses!2smx!4v1716572240803!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                {{-- <iframe src="https://www.google.com/maps/embed?pb=!4v1716571908678!6m8!1m7!1s0qjnXu77MveSu2TS2OEsHA!2m2!1d19.46610309860927!2d-99.22120909891025!3f170.0535185306615!4f3.9699627181406214!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
             </div>
         </div>
+
+        {{-- https://maps.app.goo.gl/V5VHf1he29H4LZff7 --}}
         {{-- <div class="section-angled-layer-bottom section-angled-layer-increase-angle" style="padding: 4rem 0; background: #222529;"></div> --}}
     </section>
 

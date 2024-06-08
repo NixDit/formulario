@@ -302,6 +302,23 @@
                             </div>
                         </div>
                         <div class="row">
+                            <div class="form-group col-md-6">
+                                <label class="text-color-dark form-label mb-1 text-2">¿De qué estado nos contactas?</label>
+                                <div class="custom-select-1">
+                                    <select  class="form-select form-control text-3 h-auto py-2" name="state_id" id="state_id" required>
+                                        <option value="">...</option>
+                                        @foreach ($data->state as $states)
+                                        <option name="state_id" value="{{ $states->id }}">{{ $states->name }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="text-color-dark form-label mb-1 text-2">¿Cuál es el nombre de su ciudad?</label>
+                                <input type="text" value="" maxlength="100" class="form-control text-3 h-auto py-2" name="form_city" id="form_city" autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="form-group col-md-12 mb-4">
                                 <label class="text-color-dark form-label mb-1 text-2">Mensaje</label>
                                 <textarea maxlength="50000"  rows="6" class="form-control text-3 h-auto py-2" name="message" id="message" placeholder="Cuéntanos lo que necesitas, sus caracteristicas u algún detalle que deseas agregar a tu línea de productos de cosméticos" required=""></textarea>
