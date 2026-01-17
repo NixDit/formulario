@@ -21,6 +21,8 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Session;
 use App\Http\Resources\ProductCollection;
 use App\Http\Controllers\NotificationsController;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\FormMiMarcaMail;
 
 class FormController extends Controller
 {
@@ -61,6 +63,14 @@ class FormController extends Controller
         // dd($event);
 
         event(new Registered($event));
+
+
+        Mail::to([
+                'sistemas@industrialmaquiladora.com',
+                'contacto@industrialmaquiladora.com',
+                'contacto@maproderm.com',
+            ])->send(new FormMiMarcaMail($event));
+
 
         Session::flash('alert',[ // Message for Swal general alert
             'type'    => 'success',

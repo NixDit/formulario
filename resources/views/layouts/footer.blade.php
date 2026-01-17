@@ -25,7 +25,7 @@
     </div>
     <div class="copyright bg-dark py-3">
         <div class="container text-center py-2">
-            <p class="text-color-white mb-0 text-2">Copyright 2025 - IMAQ Industrial Maquiladora OSC S.A de C.V. - Todos los derechos reservados</p>
+            <p class="text-color-white mb-0 text-2">Copyright 2026 - IMAQ Industrial Maquiladora OSC S.A de C.V. - Todos los derechos reservados</p>
         </div>
     </div>
 </footer>
